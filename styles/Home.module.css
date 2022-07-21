@@ -114,3 +114,327 @@
     flex-direction: column;
   }
 }
+.conocenosImage{
+  background-image: url(/Conocenos.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0rem -6rem;
+  height: 510px;
+  width: 100%;
+}
+@media (max-width: 768px){
+  .conocenosImage{
+    /* background-position: -7rem 0rem; */
+    height: 350px;
+  }
+}
+@media (max-width: 414px){
+  .conocenosImage{
+    background-position: -7rem 0rem;
+    height: 350px;
+  }
+}
+.quienes{
+  border: 2px solid var(--primary);
+  border-radius: 1rem;
+  width: 25%;
+  text-align: center;
+}
+@media (max-width: 414px){
+  .quienes{
+    font-size: 1.2rem;
+    width: 45%;
+  }
+}
+.seccionUno{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 2rem;
+}
+.seccionUno p{
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 768px){
+  .seccionUno{
+    grid-template-columns: 30% 70%;
+    
+  }
+}
+@media (max-width: 414px){
+  .seccionUno{
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 500px;
+    gap: .5rem;
+    margin-top: 1rem;
+  }
+}
+.imagenCurita{
+  background-image: url(/img/curita.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 66%;
+  width: 45%;
+  margin: 0 auto; 
+}
+@media (max-width: 1024px){
+  .imagenCurita{
+    height: 57%;
+    width: 64%;
+  }
+}
+@media (max-width: 768px){
+  .imagenCurita{
+    height: 43%;
+    width: 64%;
+  }
+}
+@media (max-width: 414px){
+  .imagenCurita{
+    margin: 0 auto;
+    height: 71%;
+    width: 30%;
+  }
+}
+.filosofiaContenedor{
+  background-color: var(--blanco);
+}
+.filosofia{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+@media (max-width: 414px){
+  .filosofia{
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 150px;
+  }
+}
+.filosofia p{
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 95%;
+  margin: 0 auto;
+}
+.imagenLibreta{
+  background-image: url(/img/libreta-check.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 45%;
+  margin: 0 auto; 
+}
+@media (max-width: 1024px){
+  .imagenLibreta{
+    height: 76%;
+    width: 64%;
+  }
+}
+@media (max-width: 768px){
+  .imagenLibreta{
+    height: 50%;
+    width: 62%;
+  }
+}
+@media (max-width: 414px){
+  .imagenLibreta{
+    height: 90%;
+    width: 33%;
+  }
+}
+.corazon{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 1rem;
+  background-image: url(/img/Circulo.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 65rem center;
+}
+@media (max-width: 414px){
+  .corazon{
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 95%;
+  }
+}
+.imagenCorazon{
+  background-image: url(/img/corazon.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 51%;
+  width: 57%;
+  margin: 0 auto; 
+}
+@media (max-width: 1024px){
+  .imagenCorazon{
+    height: 32%;
+    width: 57%;
+  }
+}
+@media (max-width: 768px){
+  .imagenCorazon{
+    height: 20%;
+    width: 57%;
+  }
+}
+@media (max-width: 414px){
+  .imagenCorazon{
+    height: 95%;
+    width: 33%;
+  }
+}
+
+.corazonTexto h3{
+  color: var(--secundary);
+  font-weight: bold;
+}
+@media (max-width: 414px){
+  .corazonTexto h3{
+    text-align: center;
+  }
+}
+.corazonTexto ul{
+  width: 95%;
+  margin: 0 auto;
+}
+.corazonTexto ul > li{
+  font-size: 1.5rem;
+}
+@media (max-width: 414px){
+  .corazonTexto ul > li{
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
+.MisionVision{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+@media (max-width: 414px){
+  .MisionVision{
+    grid-template-columns: 1fr;
+    grid-template-rows: 55% 35%;
+    gap: 1.2rem;
+  }
+}
+.MisionTextoTitulo{
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  
+}
+.MisionTextoTitulo h2{
+  color: var(--secundary);
+}
+@media (max-width: 414px){
+  .MisionTextoTitulo h2{
+    margin: 0 0rem 0 1rem;
+    gap: 1rem;
+  }
+}
+.imagenMontana{
+  background-image: url(/img/montana.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px; 
+}
+.MisionTexto p{
+  font-size: 1.3rem;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+@media (max-width: 414px){
+  .MisionTexto p{
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
+.imagenOjo{
+  background-image: url(/img/ojo.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px; 
+}
+.VisionTextoTitulo{
+  display: flex;
+  gap: 2rem;
+}
+.VisionTextoTitulo h2{
+  color: var(--secundary);
+}
+@media (max-width: 414px){
+  .VisionTextoTitulo h2{
+    margin: 0 0rem 0 1rem;
+    gap: 1rem;
+  }
+}
+.MisionVisionValores h3{
+  color: var(--secundary);
+  font-size: 2rem;
+}
+.MisionVisionValores{
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--negro);
+}
+@media (max-width: 414px){
+  .MisionVisionValores{
+    border: none;
+    padding-left: 0;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+}
+.BgLesion{
+  background-image: url(/img/BannerInferior2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 23rem;
+}
+@media (max-width: 1024px){
+  .BgLesion{
+    background-position: -13rem 0rem;
+  }
+}
+@media (max-width: 768px){
+  .BgLesion{
+    background-position: -39rem 0rem;
+    height: 26rem;
+  }
+}
+@media (max-width: 414px){
+  .BgLesion{
+    background-position: -101rem 0rem;
+    height: 40rem;
+  }
+}
+.seccionLesiones{
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+.LesionTitulo h1{
+  color: #fafafa;
+  font-size: 2.6rem;
+  font-weight: bold;
+  width: 60%;
+}
+.LesionTitulo strong{
+  color: var(--primary);
+}
+.LesionListado{
+  margin-top: 1rem;
+}
+.LesionLista{
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+.LesionLista span{
+  color: #fafafa;
+}

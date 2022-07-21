@@ -1,0 +1,48 @@
+.Footer{
+    background-color: var(--footer);
+    padding: 1rem 0 2rem 0;
+}
+.FooterTitulo{
+    color: var(--primary);
+    font-weight: bold;
+}
+.FooterContenedor{
+    display: grid;
+    grid-template-columns: 40% 25% 25%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+@media (max-width: 768px){
+    .FooterContenedor{
+        grid-template-columns: 45% 25% 25%;
+    }
+}
+@media (max-width: 768px){
+    .FooterContenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+.FooterContenedorContacto{
+    display: flex;
+    flex-direction: column;
+}
+.FooterContenedorContacto a{
+    color: white;
+    font-size: 1.1rem;
+}
+.FooterContenedorContacto strong {
+    color: var(--primary);
+}
+.FooterContenedorSecciones{
+    display: flex;
+    flex-direction: column;
+}
+.FooterContenedorSecciones a{
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+.FooterContenedorSecciones span{
+    color: white;
+}
