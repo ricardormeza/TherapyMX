@@ -8,7 +8,8 @@ const neurologica = () => {
         <Layout
         pagina='Fisioterapia-Neurológica'
         >
-        <main>
+        <main className='contenedor'>
+            
             <h2>Fisioterapia Neurológica</h2>
 
             <div>

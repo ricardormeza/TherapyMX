@@ -1,0 +1,288 @@
+.header {
+    background-image: url(/img/Como_funciona.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0rem -30rem;
+    height: 30rem;
+}
+
+.btnComoFunciona {
+    border: 2px solid var(--primary);
+    border-radius: 1rem;
+    width: 25%;
+    text-align: center;
+}
+@media (max-width: 414px) {
+    .btnComoFunciona {
+        width: 85%;
+    }
+}
+.seccionUno {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 2rem;
+}
+
+.seccionUno p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .seccionUno {
+        grid-template-columns: 30% 70%;
+    }
+}
+
+@media (max-width: 414px) {
+    .seccionUno {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 500px;
+        gap: .5rem;
+        margin-top: 1rem;
+    }
+}
+
+.imagenCurita {
+    background-image: url(/img/curita.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 66%;
+    width: 48%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .imagenCurita {
+        height: 51%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagenCurita {
+        height: 40%;
+        width: 76%;
+    }
+}
+
+@media (max-width: 414px) {
+    .imagenCurita {
+        margin: 0 auto;
+        height: 71%;
+        width: 30%;
+    }
+}
+
+.filosofiaContenedor {
+    background-color: var(--blanco);
+}
+
+.filosofia {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+
+@media (max-width: 414px) {
+    .filosofia {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 150px;
+    }
+}
+
+.filosofia p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.imagenLibreta {
+    background-image: url(/img/libreta-check.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 45%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .imagenLibreta {
+        height: 76%;
+        width: 64%;
+    }
+}
+@media (max-width: 768px) {
+    .imagenLibreta {
+        height: 50%;
+        width: 62%;
+    }
+}
+@media (max-width: 414px) {
+    .imagenLibreta {
+        height: 90%;
+        width: 33%;
+    }
+}
+.seccionTresContenedor{
+    background-image: url(/img/Circulo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 53rem 5rem;
+}
+@media (max-width: 1024px) {
+    .seccionTresContenedor {
+        background-position: 11rem 5rem;
+    }
+}
+@media (max-width: 768px) {
+    .seccionTresContenedor {
+        background-position: 7rem 5rem;
+    }
+}
+@media (max-width: 414px) {
+    .seccionTresContenedor {
+        background-position: 2rem 25rem;
+    }
+}
+.seccionTres {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 2rem;
+}
+
+.seccionTres p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .seccionTres {
+        grid-template-columns: 30% 70%;
+    }
+}
+
+@media (max-width: 414px) {
+    .seccionTres {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px auto;
+        gap: .5rem;
+        margin-top: 1rem;
+    }
+}
+.imagenValoracion{
+    background-image: url(/img/Objeto-inteligente-vectorial-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 30%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .imagenValoracion {
+        height: 64%;
+        width: 64%;
+    }
+}
+@media (max-width: 768px) {
+    .imagenValoracion {
+        height: 46%;
+        width: 54%;
+    }
+}
+@media (max-width: 414px) {
+    .imagenValoracion {
+        height: 70%;
+        width: 25%;
+    }
+}
+.SeccionTresValores h3{
+    color: var(--secundary);
+    font-weight: bold;
+}
+.SeccionTresValores p{
+    font-size: 1.5rem;
+}
+.imagenRazon{
+    background-image: url(/img/Objeto-inteligente-vectorial-3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 79%;
+    width: 26%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .imagenRazon {
+        height: 76%;
+        width: 54%;
+    }
+}
+@media (max-width: 768px) {
+    .imagenRazon {
+        height: 59%;
+        width: 54%;
+    }
+}
+@media (max-width: 414px) {
+    .imagenRazon {
+        height: 79%;
+        width: 28%;
+    }
+}
+.imagenContacto{
+    background-image: url(/img/Objeto-inteligente-vectorial-4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 35%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .imagenContacto {
+        height: 47%;
+        width: 59%;
+    }
+}
+@media (max-width: 768px) {
+    .imagenContacto {
+        height: 44%;
+        width: 71%;
+    }
+}
+@media (max-width: 414px) {
+    .imagenContacto {
+        height: 60%;
+        width: 38%;
+    }
+}
+.imagenTerapia{
+    background-image: url(/img/Objeto-inteligente-vectorial-5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 69%;
+    width: 31%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .imagenTerapia {
+        height: 49%;
+        width: 59%;
+    }
+}
+@media (max-width: 768px) {
+    .imagenTerapia {
+        height: 44%;
+        width: 65%;
+    }
+}
+@media (max-width: 414px) {
+    .imagenTerapia {
+        height: 69%;
+        width: 34%;
+    }
+}
