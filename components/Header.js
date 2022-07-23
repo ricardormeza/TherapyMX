@@ -45,7 +45,7 @@ const especialidades = [
     {
         name: 'Fisioteraia Pediátrica',
         description: '',
-        href: '/como-funciona',
+        href: '/fisioterapia-pediatrica',
         icon: CursorClickIcon,
     },
     {

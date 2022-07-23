@@ -1,0 +1,333 @@
+.HeaderNeurologica{
+    background-image: url(/img/Neurologicabg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -21rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderNeurologica {
+        background-position: 0rem -10rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderNeurologica {
+        background-position: 0rem -9rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderNeurologica {
+        background-position: 0rem -5rem;
+        height: 12rem;
+    }
+}
+.btnPedirCita{
+    border: 3px solid var(--primary);
+    border-radius: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 35%;
+}
+@media (max-width: 1024px) {
+    .btnPedirCita {
+        width: 55%;
+    }
+}
+@media (max-width: 768px) {
+    .btnPedirCita {
+        width: 65%;
+    }
+}
+@media (max-width: 428px) {
+    .btnPedirCita {
+        width: 85%;
+    }
+    .btnPedirCita a{
+        font-size: 1.2rem;
+    }
+}
+.btnPedirCita a{
+    margin: 1rem;
+    cursor: pointer;
+    color: var(--secundary);
+}
+.btnPedirCita a:hover{
+    color: var(--primary);
+}
+/* SECCION NEUROLOGICA */
+.NeurologicaSeccionUno{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+@media (max-width: 768px) {
+    .NeurologicaSeccionUno {
+        grid-template-columns: 20% 80%;
+        gap: 1rem;
+    }
+}
+@media (max-width: 450px) {
+    .NeurologicaSeccionUno {
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 75%;
+        gap: 1rem;
+    }
+}
+.imagenNeurologica{
+    background-image: url(/img/neurologica.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
+}
+.QueNeurologia h1{
+    color: var(--secundary);
+}
+@media (max-width: 450px) {
+    .QueNeurologia h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.QueNeurologia p{
+    font-size: 1.3rem;
+    width: 90%;
+}
+@media (max-width: 450px) {
+    .QueNeurologia p {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.Patologias{
+    background-image: url(/img/Circulo.webp);
+    background-repeat: no-repeat;
+    background-position: 68rem -3rem;
+    background-size: 20%;
+}
+@media (max-width: 1024px) {
+    .Patologias{
+    background-position: 46rem -2rem;
+    background-size: 18%;
+    }
+}
+@media (max-width: 768px) {
+    .Patologias{
+    background-position: 35rem -1rem;
+    background-size: 19%;
+    }
+}
+.seccionPatologias{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 2rem;
+    grid-template-areas: "texto imagen";
+}
+@media (max-width: 428px) {
+    .seccionPatologias{
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px auto;
+    grid-template-areas: "imagen"
+                        "texto";
+    }
+}
+.imagenCheck{
+    background-image: url(/img/libreta-check.webp);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    grid-area: imagen;
+}
+@media (max-width: 428px) {
+    .imagenCheck{
+    background-position: center;
+    }
+}
+.PatologiasTexto h2 {
+    color: var(--secundary);
+    font-size: 2rem;
+    grid-area: texto;
+}
+@media (max-width: 428px) {
+    .PatologiasTexto h2{
+    text-align: center;
+    font-weight: bold;
+    }
+}
+.PatologiasTexto p{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+@media (max-width: 428px) {
+    .PatologiasTexto p{
+    text-align: center;
+    }
+}
+.PatologiasTexto ul > li{
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+}
+/* SECCION TRES - VALORACION NEUROLOGICA -  */
+.NeurologicaTres{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 1rem;
+}
+@media (max-width: 768px) {
+    .NeurologicaTres{
+    grid-template-columns: 1fr;
+    grid-template-rows: 115px auto;
+    }
+}
+@media (max-width: 428px) {
+    .NeurologicaTres{
+    width: 95%;
+    }
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenido h3{
+    text-align: center;
+    }
+}
+.estetoscopio{
+    background-image: url(/img/estetoscopio.webp);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center top;
+}
+@media (max-width: 768px) {
+    .estetoscopio{
+    background-size: 15%;
+    text-align: center;
+    }
+}
+@media (max-width: 428px) {
+    .estetoscopio{
+    background-size: 30%;
+    }
+}
+.NeurologicaTresContenido h3{
+    color: var(--secundary);
+    margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenido h3{
+    text-align: center;
+    }
+}
+/* @media (max-width: 428px) {
+    .NeurologicaTresContenido h3{
+    text-align: center;
+    }
+} */
+.NeurologicaTresContenido p{
+    font-size: 1.5rem;
+    width: 90%;
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenido p{
+    margin: 0 auto;
+    }
+}
+@media (max-width: 428px) {
+    .NeurologicaTresContenido p{
+    text-align: center;
+    }
+}
+.corazonSeccionImg{
+    background-image: url(/img/corazon.webp);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: left top;
+    grid-area: corazon;
+}
+@media (max-width: 768px) {
+    .corazonSeccionImg{
+        background-size: 22%;
+        background-position: center;
+    }
+}
+@media (max-width: 428px) {
+    .corazonSeccionImg{
+        background-size: 35%;
+    }
+}
+.NeurologicaTresContenidoDos{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 1rem;
+    grid-template-areas: "texto corazon";
+    background-image: url(/img/Circulo.webp);
+    background-repeat: no-repeat;
+    background-position: 75rem 5rem;
+    background-size: 30%;
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenidoDos{
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px auto;
+    grid-template-areas: "corazon"
+                        "texto";
+    }
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenidoDos{
+    width: 95%;
+    }
+}
+/* .NeurologicaTresContenidoDos{
+    border: 1px solid red;
+} */
+.NeurologicaTresContenidoDos h3{
+    color: var(--secundary);
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenidoDos h3{
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+}
+.NeurologicaTresContenidoCorazon{
+    grid-area: texto;
+}
+.NeurologicaTresContenidoCorazon p{
+    text-align: justify;
+    width: 95%;
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenidoCorazon p{
+    margin: 0 auto;
+    }
+}
+@media (max-width: 428px) {
+    .NeurologicaTresContenidoCorazon p{
+    text-align: center;
+    }
+}
+/* ============== SECCION PEDIATRICA =============== */
+.HeaderPediatrica{
+    background-image: url(/img/Pediatrica.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -21rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderPediatrica {
+        background-position: 0rem -10rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderPediatrica {
+        background-position: 0rem -9rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderPediatrica {
+        background-position: 0rem -5rem;
+        height: 12rem;
+    }
+}
