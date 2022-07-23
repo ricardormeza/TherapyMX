@@ -51,7 +51,7 @@ const especialidades = [
     {
         name: 'Fisioteraia Invasiva',
         description: '',
-        href: '/comofunciona',
+        href: '/fisioterapia-invasiva',
         icon: CursorClickIcon,
     },
     {

@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../components/Layout'
 import styles from '../styles/Neurologica.module.css'
 import PediatricaUno from '../components/pediatrica/PediatricaUno'
+import PediatricaDos from '../components/pediatrica/PediatricaDos'
+import PediatricaTres from '../components/pediatrica/PediatricaTres'
 
 const pediatrica = () => {
   return (
@@ -15,12 +17,11 @@ const pediatrica = () => {
         </div>
         <div className='separacion'></div>
         <PediatricaUno/>
-        {/* <div className='separacion'></div>
-        <NeurologicaDos/>
         <div className='separacion'></div>
-        <NeurologicaTres/>
-        <div className='separacion'></div> */}
-
+        <PediatricaDos/>
+        <div className='separacion'></div>
+        <PediatricaTres/>
+        <div className='separacion'></div>
         </Layout>
   )
 }

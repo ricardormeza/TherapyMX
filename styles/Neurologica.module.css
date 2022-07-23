@@ -143,6 +143,14 @@
     background-position: center;
     }
 }
+.listadoAspectos{
+    font-size: 1.2rem;
+}
+@media (max-width: 428px) {
+    .listadoAspectos{
+    text-align: center;
+    }
+}
 .PatologiasTexto h2 {
     color: var(--secundary);
     font-size: 2rem;
@@ -330,4 +338,45 @@
         background-position: 0rem -5rem;
         height: 12rem;
     }
+}
+.imagenPediatrica{
+    background-image: url(/img/padiatrica.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
+}
+/* ======================== SECION INVASIVA ================= */
+.HeaderInvasiva{
+    background-image: url(/img/Invasiva.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -25rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderInvasiva {
+        background-position: 0rem -10rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderInvasiva {
+        background-position: 0rem -9rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderInvasiva {
+        background-position: 0rem -5rem;
+        height: 12rem;
+    }
+}
+.imagenInvasiva{
+    background-image: url(/img/Objeto-inteligente-vectorial-4.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
 }
