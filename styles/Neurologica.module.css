@@ -91,7 +91,7 @@
     }
 }
 .QueNeurologia p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 90%;
 }
 @media (max-width: 450px) {
@@ -412,6 +412,39 @@
 @media (max-width: 428px) {
     .HeaderDeportiva {
         background-position: 0rem -2rem;
+        height: 12rem;
+    }
+}
+.imagenDeportiva{
+    background-image: url(/img/Curita.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
+}
+/* ============== SECCION ORTOPEDICA =============== */
+.HeaderOrtopedica{
+    background-image: url(/img/Ortopedica.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -3rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderOrtopedica {
+        background-position: 0rem -1rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderOrtopedica {
+        background-position: 0rem -1rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderOrtopedica {
+        background-position: 0rem 0rem;
         height: 12rem;
     }
 }

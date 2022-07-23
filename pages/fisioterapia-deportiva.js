@@ -1,6 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import styles from '../styles/Neurologica.module.css'
+import DeportivaUno from '../components/deportiva/DeportivaUno'
+import DeportivoDos from '../components/deportiva/DeportivoDos'
+import DeportivoTres from '../components/deportiva/DeportivoTres'
 
 const Deportiva = () => {
   return (
@@ -13,7 +16,12 @@ const Deportiva = () => {
             <a>Agendar cita</a>
         </div>
         <div className='separacion'></div>
-       
+        <DeportivaUno/>
+        <div className='separacion'></div>
+        <DeportivoDos/>
+        <div className='separacion'></div>
+        <DeportivoTres/>
+        <div className='separacion'></div>
         </Layout>
   )
 }
