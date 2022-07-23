@@ -57,25 +57,25 @@ const especialidades = [
     {
         name: 'Fisioteraia Deportiva',
         description: '',
-        href: '/comofunciona',
+        href: '/fisioterapia-deportiva',
         icon: CursorClickIcon,
     },
     {
         name: 'Fisioteraia Ortopédica',
         description: '',
-        href: '/comofunciona',
+        href: '/fisioterapia-ortopedica',
         icon: CursorClickIcon,
     },
     {
         name: 'Fisioteraia Ecográfica',
         description: '',
-        href: '/comofunciona',
+        href: '/fisioterapia-ecografica',
         icon: CursorClickIcon,
     },
     {
         name: 'Fisioteraia A Domicilio',
         description: '',
-        href: '/comofunciona',
+        href: '/fisioterapia-a-domicilio',
         icon: CursorClickIcon,
     }
 ]

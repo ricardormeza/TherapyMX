@@ -296,6 +296,16 @@
         margin-bottom: 1.2rem;
     }
 }
+.NeurologicaTresContenidoDos h4{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+@media (max-width: 768px) {
+    .NeurologicaTresContenidoDos h4{
+        text-align: center;
+    }
+}
 .NeurologicaTresContenidoCorazon{
     grid-area: texto;
 }
@@ -373,10 +383,35 @@
     }
 }
 .imagenInvasiva{
-    background-image: url(/img/Objeto-inteligente-vectorial-4.webp);
+    background-image: url(/img/icono-invasiva.webp);
     background-size: contain;
     background-repeat: no-repeat;
     height: 160px;
     width: 160px;
     margin: 0 auto;
+}
+/* ============== SECCION DEPORTIVA =============== */
+.HeaderDeportiva{
+    background-image: url(/img/Deportiva.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -13rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderDeportiva {
+        background-position: 0rem -10rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderDeportiva {
+        background-position: 0rem -4rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderDeportiva {
+        background-position: 0rem -2rem;
+        height: 12rem;
+    }
 }
