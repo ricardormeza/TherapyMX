@@ -104,6 +104,14 @@
     text-align: justify;
 }
 /* SECCION DOS  DE PRESOTERAPIA  SECCION DOS*/
+.SeccionDos h2{
+    color: var(--secundary);
+}
+@media (max-width: 428px) {
+    .SeccionDos h2 {
+        text-align: center;
+    }
+}
 .SeccionDos P{
     font-size: 1.5rem;
     width: 90%;
@@ -183,4 +191,55 @@
 }
 .ContenidoSeccTresText li > span {
     color: black;
+}
+/* ===============  SECCION ELECTROTERAPIA  ==================== */
+.HeaderElectroterapia{
+    background-image: url(/img/Electroterapia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -20rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderElectroterapia {
+        background-position: 0rem -5rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderElectroterapia {
+        background-position: 0rem -6rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderElectroterapia {
+        background-position: 0rem -3rem;
+        height: 12rem;
+    }
+}
+
+/* ======== SECCION BIOMECANICO ============= */
+.HeaderBiomecanico{
+    background-image: url(/img/Biomecanico.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -35rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderBiomecanico {
+        background-position: 0rem -13rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderBiomecanico {
+        background-position: 0rem -12rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderBiomecanico {
+        background-position: 0rem -5rem;
+        height: 12rem;
+    }
 }
