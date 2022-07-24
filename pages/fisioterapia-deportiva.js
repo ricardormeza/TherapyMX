@@ -4,6 +4,8 @@ import styles from '../styles/Neurologica.module.css'
 import DeportivaUno from '../components/deportiva/DeportivaUno'
 import DeportivoDos from '../components/deportiva/DeportivoDos'
 import DeportivoTres from '../components/deportiva/DeportivoTres'
+import BannerTres from '../components/BannerTres'
+import RedeSociales from '../components/conocenos/RedeSociales'
 
 const Deportiva = () => {
   return (
@@ -22,6 +24,9 @@ const Deportiva = () => {
         <div className='separacion'></div>
         <DeportivoTres/>
         <div className='separacion'></div>
+        <BannerTres/>
+        <div className='separacion'></div>
+        <RedeSociales/>
         </Layout>
   )
 }

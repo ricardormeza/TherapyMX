@@ -69,7 +69,8 @@
 @media (max-width: 450px) {
     .NeurologicaSeccionUno {
         grid-template-columns: 1fr;
-        grid-template-rows: 25% 75%;
+        /* grid-template-rows: 25% 75%; */
+        grid-template-rows: 20% 75%;
         gap: 1rem;
     }
 }
@@ -444,6 +445,31 @@
 }
 @media (max-width: 428px) {
     .HeaderOrtopedica {
+        background-position: 0rem 0rem;
+        height: 12rem;
+    }
+}
+/* ============== SECCION ECOGRAFICA =============== */
+.HeaderEcografica{
+    background-image: url(/img/Ecografia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -14rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderEcografica {
+        background-position: 0rem -1rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderEcografica {
+        background-position: 0rem -1rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderEcografica {
         background-position: 0rem 0rem;
         height: 12rem;
     }

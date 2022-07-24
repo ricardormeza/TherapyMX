@@ -4,6 +4,8 @@ import styles from '../styles/Neurologica.module.css'
 import InvasivaUno from '../components/invasiva/InvasivaUno'
 import InvasivaDos from '../components/invasiva/InvasivaDos'
 import InvasivaTres from '../components/invasiva/InvasivaTres'
+import BannerTres from '../components/BannerTres'
+import RedeSociales from '../components/conocenos/RedeSociales'
 
 const Invasiva = () => {
   return (
@@ -22,6 +24,9 @@ const Invasiva = () => {
         <div className='separacion'></div>
         <InvasivaTres/>
         <div className='separacion'></div>
+        <BannerTres/>
+        <div className='separacion'></div>
+        <RedeSociales/>
         </Layout>
   )
 }

@@ -16,9 +16,12 @@ import {
     SupportIcon,
     ViewGridIcon,
     XIcon,
-    UserGroupIcon
+    UserGroupIcon,
+    CubeTransparentIcon,
+    LightBulbIcon
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+
 
 const solutions = [
     {
@@ -40,75 +43,75 @@ const especialidades = [
         name: 'Fisioterapia Neurológica',
         description: '',
         href: '/fisioterapia-neurologica',
-        icon: UserGroupIcon,
+        icon: CubeTransparentIcon,
     },
     {
         name: 'Fisioteraia Pediátrica',
         description: '',
         href: '/fisioterapia-pediatrica',
-        icon: CursorClickIcon,
+        icon: CubeTransparentIcon,
     },
     {
         name: 'Fisioteraia Invasiva',
         description: '',
         href: '/fisioterapia-invasiva',
-        icon: CursorClickIcon,
+        icon: CubeTransparentIcon,
     },
     {
         name: 'Fisioteraia Deportiva',
         description: '',
         href: '/fisioterapia-deportiva',
-        icon: CursorClickIcon,
+        icon: CubeTransparentIcon,
     },
     {
         name: 'Fisioteraia Ortopédica',
         description: '',
         href: '/fisioterapia-ortopedica',
-        icon: CursorClickIcon,
+        icon: CubeTransparentIcon,
     },
     {
         name: 'Fisioteraia Ecográfica',
         description: '',
         href: '/fisioterapia-ecografica',
-        icon: CursorClickIcon,
+        icon: CubeTransparentIcon,
     },
     {
         name: 'Fisioteraia A Domicilio',
         description: '',
         href: '/fisioterapia-a-domicilio',
-        icon: CursorClickIcon,
+        icon: CubeTransparentIcon,
     }
 ]
 const servicios = [
     {
         name: 'Presoterapia',
         description: '',
-        href: '/quienes-somos',
-        icon: UserGroupIcon,
+        href: '/presoterapia',
+        icon: LightBulbIcon,
     },
     {
         name: 'Electroterapia',
         description: '',
-        href: '/como-funciona',
-        icon: CursorClickIcon,
+        href: '/electroterapia',
+        icon: LightBulbIcon,
     },
     {
         name: 'Análisis Biomecánico',
         description: '',
-        href: '/como-funciona',
-        icon: CursorClickIcon,
+        href: '/analisis-biomecanico',
+        icon: LightBulbIcon,
     },
     {
         name: 'Kinesiotaping',
         description: '',
-        href: '/como-funciona',
-        icon: CursorClickIcon,
+        href: '/kinesiotaping',
+        icon: LightBulbIcon,
     },
     {
         name: 'Descarga Muscular',
         description: '',
-        href: '/como-funciona',
-        icon: CursorClickIcon,
+        href: '/descarga-musuclar',
+        icon: LightBulbIcon,
     }
 ]
 

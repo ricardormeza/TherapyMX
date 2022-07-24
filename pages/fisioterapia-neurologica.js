@@ -6,6 +6,8 @@ import styles from '../styles/Neurologica.module.css'
 import NeurologicaUno from '../components/neurologica/NeurologicaUno'
 import NeurologicaDos from '../components/neurologica/NeurologicaDos'
 import NeurologicaTres from '../components/neurologica/NeurologicaTres'
+import BannerTres from '../components/BannerTres'
+import RedeSociales from '../components/conocenos/RedeSociales'
 
 const neurologica = () => {
     return (
@@ -24,7 +26,10 @@ const neurologica = () => {
         <div className='separacion'></div>
         <NeurologicaTres/>
         <div className='separacion'></div>
-
+        <BannerTres/>
+        <div className='separacion'></div>
+        <RedeSociales/>
+        <div className='separacion'></div>
         </Layout>
     )
 }

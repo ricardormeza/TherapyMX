@@ -1,0 +1,186 @@
+.HeaderPresoterapia{
+    background-image: url(/img/Presoterapia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -33rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderPresoterapia {
+        background-position: 0rem -16rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderPresoterapia {
+        background-position: 0rem -9rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderPresoterapia {
+        background-position: 0rem -5rem;
+        height: 12rem;
+    }
+}
+.btnPedirCita{
+    border: 3px solid var(--primary);
+    border-radius: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 35%;
+}
+@media (max-width: 1024px) {
+    .btnPedirCita {
+        width: 55%;
+    }
+}
+@media (max-width: 768px) {
+    .btnPedirCita {
+        width: 65%;
+    }
+}
+@media (max-width: 428px) {
+    .btnPedirCita {
+        width: 85%;
+    }
+    .btnPedirCita a{
+        font-size: 1.2rem;
+    }
+}
+.btnPedirCita a{
+    margin: 1rem;
+    cursor: pointer;
+    color: var(--secundary);
+}
+.btnPedirCita a:hover{
+    color: var(--primary);
+}
+/* ===============  SECCION PRESOTERAPIA  ==================== */
+.contenidoGrid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: .5rem;
+}
+@media (max-width: 428px) {
+    .contenidoGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 105px auto;
+    }
+}
+.imagenServiciosUno{
+    background-image: url(/img/libreta-check.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .imagenServiciosUno {
+    height: 100px;
+    width: 100px;
+    }
+}
+@media (max-width: 428px) {
+    .imagenServiciosUno {
+        height: 99px;
+        width: 99px;
+    }
+}
+.contenidoGridTexto{
+    width: 95%;
+}
+.contenidoGridTexto h1{
+    color: var(--secundary);
+    font-weight: bold;
+}
+@media (max-width: 428px) {
+    .contenidoGridTexto h1 {
+        text-align: center;
+    }
+}
+.contenidoGridTexto p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* SECCION DOS  DE PRESOTERAPIA  SECCION DOS*/
+.SeccionDos P{
+    font-size: 1.5rem;
+    width: 90%;
+}
+@media (max-width: 768px) {
+    .SeccionDos p {
+        text-align: justify;
+    }
+}
+@media (max-width: 428px) {
+    .SeccionDos p {
+        margin: 0 auto;
+    }
+}
+/* SECCION DOS  DE PRESOTERAPIA  SECCION TRES */
+.bgGris{
+    background-color: var(--blanco);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contenidoGridSeccionTres{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: .5rem;
+}
+@media (max-width: 1024px) {
+    .contenidoGridSeccionTres {
+    gap: 2rem;
+    }
+}
+@media (max-width: 428px) {
+    .contenidoGridSeccionTres {
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px auto;
+    }
+}
+.imagenServiciosTres{
+    background-image: url(/img/corazon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    margin: 0 auto;
+    width: 200px;
+}
+@media (max-width: 768px) {
+    .imagenServiciosTres {
+    height: 120px;
+    width: 150px;
+    }
+}
+@media (max-width: 428px) {
+    .imagenServiciosTres {
+        height: 89px;
+        width: 111px;
+    }
+}
+.ContenidoSeccTresText h2{
+    margin-bottom: 1rem;
+    width: 90%;
+}
+@media (max-width: 428px) {
+    .ContenidoSeccTresText h2 {
+        text-align: center;
+    }
+}
+.ContenidoSeccTresText ul > li{
+    font-size: 1.5rem;
+    color: var(--primary);
+    width: 90%;
+    
+}
+@media (max-width: 428px) {
+    .ContenidoSeccTresText ul > li {
+        text-align: center;
+    }
+}
+.ContenidoSeccTresText li > span {
+    color: black;
+}

@@ -4,6 +4,8 @@ import styles from '../styles/Neurologica.module.css'
 import PediatricaUno from '../components/pediatrica/PediatricaUno'
 import PediatricaDos from '../components/pediatrica/PediatricaDos'
 import PediatricaTres from '../components/pediatrica/PediatricaTres'
+import BannerTres from '../components/BannerTres'
+import RedeSociales from '../components/conocenos/RedeSociales'
 
 const pediatrica = () => {
   return (
@@ -22,6 +24,9 @@ const pediatrica = () => {
         <div className='separacion'></div>
         <PediatricaTres/>
         <div className='separacion'></div>
+        <BannerTres/>
+        <div className='separacion'></div>
+        <RedeSociales/>
         </Layout>
   )
 }
