@@ -303,3 +303,110 @@
     font-size: 1.5rem;
 }
 /* ======== SECCION KINESIOTAPING ============= */
+.HeaderKinesiotaping{
+    background-image: url(/img/Kinesiotaping.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -31rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderKinesiotaping {
+        background-position: 0rem -10rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderKinesiotaping {
+        background-position: 0rem -9rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderKinesiotaping {
+        background-position: 0rem -4rem;
+        height: 12rem;
+    }
+}
+.KinesiotapingContenedor h2{
+    color: var(--secundary);
+}
+.KinesiotapingContenedor p{
+    font-size: 1.5rem;
+}
+.KinesiotapingContenedor ul > li{
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+.KinesiotapingContenedor li > span{
+    color: black;
+}
+.kinestapingListadoGrid{
+    display: grid;
+    grid-template-columns: 40% 20%;
+    gap: 1rem;
+}
+@media (max-width: 428px) {
+    .kinestapingListadoGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+    }
+}
+.kinestapingCorazon{
+    background-image: url(/img/corazon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    margin: 0 auto;
+    width: 200px;
+    /* grid-area: imagen; */
+}
+@media (max-width: 1024px) {
+    .kinestapingCorazon {
+    height: 120px;
+    width: 150px;
+    }
+}
+@media (max-width: 768px) {
+    .kinestapingCorazon {
+    height: 120px;
+    width: 150px;
+    }
+}
+@media (max-width: 428px) {
+    .kinestapingCorazon {
+        height: 89px;
+        width: 111px;
+    }
+}
+/* ======== SECCION DESCARGA MUSCULAR ============= */
+.HeaderDescarga{
+    background-image: url(/img/Muscular.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem -31rem;
+    height: 30rem;
+}
+@media (max-width: 1024px) {
+    .HeaderDescarga {
+        background-position: 0rem -10rem;
+    }
+}
+@media (max-width: 768px) {
+    .HeaderDescarga {
+        background-position: 0rem -9rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px) {
+    .HeaderDescarga {
+        background-position: 0rem -4rem;
+        height: 12rem;
+    }
+}
+.DescargaMuscularListado{
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+.DescargaMuscularListado span{
+    color: black;
+}

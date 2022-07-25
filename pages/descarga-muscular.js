@@ -1,25 +1,25 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import styles from '../styles/Presoterapia.module.css'
-import KinesiotapingUno from '../components/kinesiotaping/KinesiotapingUno'
-import KinestapingDos from '../components/kinesiotaping/KinestapingDos'
+import DescargaUno from '../components/descargaMuscular/DescargaUno'
+import DescargaDos from '../components/descargaMuscular/DescargaDos'
 import Lesiones from '../components/conocenos/Lesiones'
 import RedeSociales from '../components/conocenos/RedeSociales'
 
-const kinesiotaping = () => {
+const DescargaMuscular = () => {
     return (
         <Layout
-            pagina='Kinesiotaping'
+            pagina='Descarga Muscular'
             >
-            <div className={styles.HeaderKinesiotaping}></div>
+            <div className={styles.HeaderDescarga}></div>
             <div className={styles.btnPedirCita}>
                 <a>Pedir informes |</a>
                 <a>Agendar cita</a>
             </div>
             <div className='separacion'></div>
-            <KinesiotapingUno/>
+            <DescargaUno/>
             <div className='separacion'></div>
-            <KinestapingDos/>
+            <DescargaDos/>
             <div className='separacion'></div>
             
             <div className='separacion'></div>
@@ -30,4 +30,4 @@ const kinesiotaping = () => {
     )
 }
 
-export default kinesiotaping
+export default DescargaMuscular

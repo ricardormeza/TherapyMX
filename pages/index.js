@@ -14,11 +14,6 @@ export default function Home() {
         pagina="Inicio"
       >
         <div className={styles.conocenosImage}>
-          {/* <Image 
-          layout="responsive" 
-          width={400} height={150} 
-          src="/Conocenos.webp" alt='logo imagen' 
-          /> */}
         </div>
           <h3 className={`contenedor ${styles.quienes}`}>¿Quiénes somos?</h3>
         <main>

@@ -75,12 +75,7 @@ const especialidades = [
         href: '/fisioterapia-ecografica',
         icon: CubeTransparentIcon,
     },
-    {
-        name: 'Fisioteraia A Domicilio',
-        description: '',
-        href: '/fisioterapia-a-domicilio',
-        icon: CubeTransparentIcon,
-    }
+    
 ]
 const servicios = [
     {
@@ -110,7 +105,7 @@ const servicios = [
     {
         name: 'Descarga Muscular',
         description: '',
-        href: '/descarga-musuclar',
+        href: '/descarga-muscular',
         icon: LightBulbIcon,
     }
 ]

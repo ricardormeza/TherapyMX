@@ -1,0 +1,94 @@
+.ContactoGrid{
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 1rem;
+    /* border: 1px solid red; */
+}
+@media (max-width: 428px) {
+    .ContactoGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 65% 35%;
+    }
+}
+/* .ContactoTexto{
+    border: 2px solid green;
+} */
+.ContactoTexto h1{
+    padding: 1rem 0;
+}
+.ContactoTexto h1 > span{
+    color: var(--primary);
+}
+.ContactoTexto p{
+    font-size: 1.2rem;
+}
+.contactoImagen{
+        background-image: url(/img/Contactanos.webp);
+        background-repeat: no-repeat;
+        background-size: 65%;
+        /* background-position: 0rem -31rem; */
+        height: 30rem;
+        background-position: right;
+        
+}
+@media (max-width: 1024px) {
+    .contactoImagen {
+        background-size: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .contactoImagen {
+        background-size: 95%;
+    }
+}
+@media (max-width: 428px) {
+    .contactoImagen {
+        background-size: 75%;
+        height: 20rem;
+    }
+}
+.formulario{
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .formulario {
+        font-size: .8rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.input{
+    color: black;
+    width: 90%;
+    padding: .5rem;
+    border-radius: .5rem;
+    /* background: transparent; */
+    border: 2px solid var(--primary);
+    resize: none;
+}
+.textarea{
+    width: 100%;
+    color: black;
+    padding: .5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--primary);
+    resize: none;
+}
+.btnContacto{
+    background-color: var(--primary);
+    color: white;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+}
+@media (max-width: 768px) {
+    .btnContacto {
+        font-size: .8rem;
+        
+    }
+}

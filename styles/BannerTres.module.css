@@ -88,3 +88,93 @@
 .BannerTresBtn a:hover{
     color: var(--primary);
 }
+.BannerContactosBg{
+    background-image: url(/img/BannerInferiorContacto.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0rem 0rem;
+    height: 30rem;
+}
+@media (max-width: 1024px){
+    .BannerContactosBg{
+    background-position: -17rem 0rem;
+    }
+}
+@media (max-width: 768px){
+    .BannerContactosBg{
+    background-position: -22rem 0rem;
+    }
+}
+@media (max-width: 428px){
+    .BannerContactosBg{
+    background-position: -50rem 0rem;
+    }
+}
+.ContenidoBannerContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 768px){
+    .ContenidoBannerContacto{
+    grid-template-columns: 35% 70%;
+    /* grid-template-rows: 5px auto; */
+    }
+}
+@media (max-width: 428px){
+    .ContenidoBannerContacto{
+    grid-template-columns: 1fr;
+    grid-template-rows: 5px auto;
+    }
+}
+.BannerContactoTexto{
+    padding-top: 4rem;
+    width: 80%;
+}
+@media (max-width: 428px){
+    .BannerContactoTexto{
+    width: 95%;
+    }
+}
+@media (max-width: 1024px){
+    .BannerContactoTexto{
+        padding-top: 0rem;
+    }
+}
+.ContenidoBannerContacto h5{
+    text-align: justify;
+    color: var(--secundary);
+    font-weight: bold;
+}
+@media (max-width: 428px){
+    .ContenidoBannerContacto h5{
+    text-align: center;
+    }
+}
+.ContenidoBannerContacto p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+@media (max-width: 428px){
+    .ContenidoBannerContacto p{
+    text-align: center;
+    font-size: 1.5rem;
+    }
+}
+.BtnContacto{
+    display: flex;
+    gap: 1rem;
+}
+.BtnContactoBtn{
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    transition: .3s all;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.BtnContactoBtn:hover{
+    background-color: var(--primary);
+    color: white;
+}
