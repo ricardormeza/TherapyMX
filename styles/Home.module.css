@@ -140,7 +140,7 @@
   width: 25%;
   text-align: center;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .quienes{
     font-size: 1.2rem;
     width: 45%;
@@ -163,7 +163,7 @@
     
   }
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .seccionUno{
     grid-template-columns: 1fr;
     grid-template-rows: 150px 500px;
@@ -176,9 +176,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 95%;
-  width: 45%;
+  width: 49%;
   margin: 0 auto; 
 }
+
 @media (max-width: 1024px){
   .imagenCurita{
     height: 57%;
@@ -187,14 +188,14 @@
 }
 @media (max-width: 768px){
   .imagenCurita{
-    height: 35%;
-    width: 53%;
+    height: 32%;
+    width: 48%;
   }
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .imagenCurita{
     margin: 0 auto;
-    height: 79%;
+    height: 80%;
     width: 30%;
   }
 }
@@ -207,7 +208,7 @@
   gap: 1rem;
   padding: 2rem 0rem;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .filosofia{
     grid-template-columns: 1fr;
     grid-template-rows: 400px 150px;
@@ -223,8 +224,8 @@
   background-image: url(/img/libreta-check.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90%;
-  width: 45%;
+  height: 95%;
+  width: 33%;
   margin: 0 auto; 
 }
 @media (max-width: 1024px){
@@ -239,9 +240,9 @@
     width: 62%;
   }
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .imagenLibreta{
-    height: 90%;
+    height: 97%;
     width: 33%;
   }
 }
@@ -254,7 +255,7 @@
   background-repeat: no-repeat;
   background-position: 65rem center;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .corazon{
     grid-template-columns: 1fr;
     grid-template-rows: 20% 95%;
@@ -264,7 +265,7 @@
   background-image: url(/img/corazon.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 51%;
+  height: 55%;
   width: 57%;
   margin: 0 auto; 
 }
@@ -280,7 +281,7 @@
     width: 57%;
   }
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .imagenCorazon{
     height: 95%;
     width: 33%;
@@ -315,7 +316,7 @@
   gap: 1rem;
   margin-top: 2rem;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .MisionVision{
     grid-template-columns: 1fr;
     grid-template-rows: 55% 35%;
@@ -369,7 +370,7 @@
 .VisionTextoTitulo h2{
   color: var(--secundary);
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .VisionTextoTitulo h2{
     margin: 0 0rem 0 1rem;
     gap: 1rem;
@@ -384,7 +385,7 @@
   padding-left: 1rem;
   border-left: 4px solid var(--negro);
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .MisionVisionValores{
     border: none;
     padding-left: 0;
@@ -409,9 +410,9 @@
     height: 26rem;
   }
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .BgLesion{
-    background-position: -101rem 0rem;
+    background-position: -49rem 0rem;
     height: 40rem;
   }
 }

@@ -49,11 +49,16 @@
     background-image: url(/img/curita.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 66%;
-    width: 48%;
+    height: 85%;
+    width: 39%;
     margin: 0 auto;
 }
-
+@media (min-width: 1450px) {
+    .imagenCurita {
+        height: 70%;
+        width: 47%;
+    }
+}
 @media (max-width: 1024px) {
     .imagenCurita {
         height: 51%;
