@@ -2,23 +2,50 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../components/Layout'
+import styles from '../styles/Home.module.css'
+import CompromisoPaciente from '../components/conocenos/CompromisoPaciente'
+import MisionVision from '../components/conocenos/MisionVision'
+import Lesiones from '../components/conocenos/Lesiones'
+import RedeSociales from '../components/conocenos/RedeSociales'
+import Footer from '../components/Footer'
 
 const quienessomos = () => {
   return (
     <Layout
       pagina='Quienes somos'
     >
-      <main>
-        <h2>Nosotros</h2>
-
-        <div>
-          {/* <Image layout='responsive' width={600} height={450} src="/img/nosotros.jpg" alt="imagen nosotros" /> */}
-          <div>
-            <p>Fusce luctus, quam non vestibulum fermentum, felis enim venenatis lorem, vitae hendrerit turpis felis id leo. In elementum nisl ac orci aliquet, eget vulputate augue hendrerit.  id porttitor turpis tincidunt. Nunc nec mauris odio. Aenean elementum tempus viverra. Maecenas pellentesque, tellus quis tristique vehicula, nunc tellus commodo dolor, vel ultricies massa dui at purus. Pellentesque feugiat metus erat, eget lobortis ipsum pharetra ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eros lorem, aliquet vitae libero eget, suscipit imperdiet odio. Nunc consequat turpis a dui lobortis elementum. Nulla hendrerit ex malesuada, mollis nulla eget, scelerisque lorem. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed lorem lectus, convallis a risus ultrices, vulputate facilisis enim.  Vestibulum auctor, augue ac vulputate commodo, mauris justo venenatis risus, non sodales velit lectus nec augue. Maecenas vitae nisl sed lorem pharetra auctor et eu dolor. Curabitur felis orci, ultricies in maximus in, auctor a arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis id bibendum urna. </p>
+      <div className={styles.conocenosImage}>
+        </div>
+          <h3 className={`contenedor ${styles.quienes}`}>¿Quiénes somos?</h3>
+        <main>
+          <div className={`contenedor ${styles.seccionUno}`}>
+            <div className={styles.imagenCurita}></div>
+            <p><span>Up Therapy Mx</span>es una clínica que ha desarrollado su actividad en el sector de la salud
+              ofreciendo servicios de rehabilitación y terapia física desde diciembre del 2017. La empresa busca una 
+              constante innovación utilizando la tecnología más actualizada en los métodos aplicados para el bienestar
+              de los pacientes generando una rápida recuperación.
+            </p>
+          </div>
+        </main>
+        <div className='separacion'></div>
+        <div className={styles.filosofiaContenedor}>
+          <div className={`contenedor ${styles.filosofia}`}>
+            <p>La filosofia de <span>Up Therapy Mx</span>, se basa en realizar un razonamiento clínico personalizado
+              para un tratamiento eficaz de acuerdo a cada lesión o patología. Cuenta con un equipo de trabajo <span>experto</span>,
+              el cuál busca la mejor solución que se adapte a las necesidades de cada paciente.
+            </p>
+            <div className={styles.imagenLibreta}></div>
           </div>
         </div>
-      </main>
+          <div className='separacion'></div>
+          <CompromisoPaciente/>
+          <div className='separacion'></div>
+          <MisionVision/>
+          <div className='separacion'></div>
+          <Lesiones/>
+          <div className='separacion'></div>
+          <RedeSociales/>
+          <div className='separacion'></div>
 
     </Layout>
   )

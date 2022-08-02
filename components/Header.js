@@ -27,7 +27,7 @@ const solutions = [
     {
         name: '¿Quiénes somos?',
         description: 'Up Therapy Mx es una clínica de rehabilitación y terapia física.',
-        href: '/',
+        href: '/quienes-somos',
         icon: UserGroupIcon,
     },
     {
