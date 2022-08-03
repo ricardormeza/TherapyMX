@@ -7,7 +7,7 @@ import CompromisoPaciente from '../components/conocenos/CompromisoPaciente'
 import MisionVision from '../components/conocenos/MisionVision'
 import Lesiones from '../components/conocenos/Lesiones'
 import RedeSociales from '../components/conocenos/RedeSociales'
-import Footer from '../components/Footer'
+
 
 const quienessomos = () => {
   return (

@@ -120,24 +120,17 @@ const callsToAction = [
 const resources = [
 
     {
-        name: 'Help Center',
-        description: 'Get all of your questions answered in our forums or contact support.',
+        name: 'Seguro de gastos médicos',
+        description: '',
         href: '#',
         icon: SupportIcon,
     },
     {
-        name: 'Guides',
+        name: 'Aviso de privacidad',
         description: 'Learn how to maximize our platform to get the most out of it.',
         href: '#',
         icon: BookmarkAltIcon,
     },
-    {
-        name: 'Events',
-        description: 'See what meet-ups and other events we might be planning near you.',
-        href: '#',
-        icon: CalendarIcon,
-    },
-    { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
 ]
 const recentPosts = [
 
@@ -488,9 +481,9 @@ const Header = () => {
                                     </a>
                                 </Link>
 
-                                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                {/* <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
                                     Docs
-                                </a>
+                                </a> */}
                                 {resources.map((item) => (
                                     <a
                                         key={item.name}

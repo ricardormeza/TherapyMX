@@ -1,47 +1,48 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
-import CompromisoPaciente from '../components/conocenos/CompromisoPaciente'
-import MisionVision from '../components/conocenos/MisionVision'
+import InicioUno from '../components/inicio/InicioUno'
+import InicioDos from '../components/inicio/InicioDos'
+import InicioTres from '../components/inicio/InicioTres'
 import Lesiones from '../components/conocenos/Lesiones'
+import BannerContacto from '../components/BannerContacto'
 import RedeSociales from '../components/conocenos/RedeSociales'
-import Footer from '../components/Footer'
+import "swiper/css/bundle";
+
 
 export default function Home() {
   return (
     <Layout
         pagina="Inicio"
       >
-        <div className={styles.conocenosImage}>
-        </div>
-          <h3 className={`contenedor ${styles.quienes}`}>¿Quiénes somos?</h3>
-        <main>
-          <div className={`contenedor ${styles.seccionUno}`}>
-            <div className={styles.imagenCurita}></div>
-            <p><span>Up Therapy Mx</span>es una clínica que ha desarrollado su actividad en el sector de la salud
-              ofreciendo servicios de rehabilitación y terapia física desde diciembre del 2017. La empresa busca una 
-              constante innovación utilizando la tecnología más actualizada en los métodos aplicados para el bienestar
-              de los pacientes generando una rápida recuperación.
-            </p>
+        <main className={styles.InicioImagen}>
+          <div className={styles.InicioHeadGrdiContainer}>
+            <div className={styles.InicioGridText}>
+              <h2>Tu bienestar está en nuestras manos.</h2>
+              <p>Somos <span>expertos en tratamientos de fisioterapia.</span> </p>
+              <div className={styles.BtnContacto}>
+                <Link href='/contacto'>
+                  <a className={styles.BtnContactoBtn}>Pedir informes</a> 
+                </Link>
+                <a className={styles.BtnContactoBtn}>Agendar cita</a>
+              </div>
+            </div>
+            <div></div>
           </div>
         </main>
+        {/* <div className='separacion'></div> */}
+        <InicioUno/>
         <div className='separacion'></div>
-        <div className={styles.filosofiaContenedor}>
-          <div className={`contenedor ${styles.filosofia}`}>
-            <p>La filosofia de <span>Up Therapy Mx</span>, se basa en realizar un razonamiento clínico personalizado
-              para un tratamiento eficaz de acuerdo a cada lesión o patología. Cuenta con un equipo de trabajo <span>experto</span>,
-              el cuál busca la mejor solución que se adapte a las necesidades de cada paciente.
-            </p>
-            <div className={styles.imagenLibreta}></div>
-          </div>
-        </div>
+        <InicioDos/>
+        <div className='separacion'></div>
+        
+          
           <div className='separacion'></div>
-          <CompromisoPaciente/>
+          <BannerContacto/>
           <div className='separacion'></div>
-          <MisionVision/>
-          <div className='separacion'></div>
-          <Lesiones/>
+          <InicioTres/>
           <div className='separacion'></div>
           <RedeSociales/>
           <div className='separacion'></div>
