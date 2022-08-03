@@ -240,6 +240,63 @@
     height: 350px;
   }
 }
+.InicioTresContenedor{
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 1rem;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid gray;
+}
+@media (max-width: 768px){
+  .InicioTresContenedor{
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 35%;
+  }
+}
+.inicioTresTexto{
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+.inicioTresTexto h3{
+  color: var(--secundary);
+  font-weight: bold;
+}
+.inicioTresTexto h4{
+  color: var(--secundary);
+  font-weight: bold;
+}
+.inicioTresTexto p{
+  font-size: 1.5rem;
+  width: 90%;
+}
+
+.Comentarios{
+  overflow: hidden;
+  border-radius: .8rem;
+  height: 300px;
+  /* border: 1px solid red; */
+  -webkit-box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
+box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
+}
+@media (max-width: 428px){
+  .Comentarios{
+    height: 255px;
+  }
+}
+.ComentariosImg{
+  background-image: url(/img/comentario-maps.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+@media (max-width: 428px){
+  .ComentariosImg{
+    background-size: 108%;
+    /* height: 270px; */
+  }
+}
+/* ================== INICIO QUIENES SOMOS SECTION */
 .QuienesSomosImg{
   background-image: url(/img/Quienes-Somos.webp);
   background-size: cover;
@@ -614,3 +671,4 @@
 .LesionLista span{
   color: #fafafa;
 }
+

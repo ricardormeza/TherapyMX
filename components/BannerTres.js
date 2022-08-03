@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/BannerTres.module.css'
 
 const BannerTres = () => {
@@ -10,7 +11,9 @@ const BannerTres = () => {
                 <p>¡Agenda una consulta con un <span>fisioterapeuta especialista!</span></p>
             </div>
             <div className={`contenedor ${styles.BannerTresBtn}`}>
-                <a>Agendar cita</a>
+                <Link href='https://wa.me/525511775805'>
+                    <a>Agendar cita</a>
+                </Link>
             </div>
         </section>
     )

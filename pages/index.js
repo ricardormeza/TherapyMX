@@ -12,6 +12,7 @@ import RedeSociales from '../components/conocenos/RedeSociales'
 import "swiper/css/bundle";
 
 
+
 export default function Home() {
   return (
     <Layout
@@ -26,7 +27,9 @@ export default function Home() {
                 <Link href='/contacto'>
                   <a className={styles.BtnContactoBtn}>Pedir informes</a> 
                 </Link>
-                <a className={styles.BtnContactoBtn}>Agendar cita</a>
+                <Link href='https://wa.me/525511775805'>
+                  <a className={styles.BtnContactoBtn}>Agendar cita</a>
+                </Link>
               </div>
             </div>
             <div></div>
@@ -43,6 +46,7 @@ export default function Home() {
           <BannerContacto/>
           <div className='separacion'></div>
           <InicioTres/>
+          
           <div className='separacion'></div>
           <RedeSociales/>
           <div className='separacion'></div>

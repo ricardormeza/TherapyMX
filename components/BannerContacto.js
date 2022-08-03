@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/BannerTres.module.css'
+import Link from 'next/link'
 
 const BannerContacto = () => {
   return (
@@ -11,8 +12,12 @@ const BannerContacto = () => {
                     <p>Con <span>Up Therapy</span> no necesitas una instalación especial, 
                     nos adaptamos a tu espacio llevando todo el equipo necesario para tu tratamiento</p>
                     <div className={`contenedor ${styles.BtnContacto}`}>
-                        <a className={styles.BtnContactoBtn}>Pedir Informes</a>
-                        <a className={styles.BtnContactoBtn}>Agendar cita</a>
+                        <Link href='tel:+525547576392' target="_blank">
+                            <a className={styles.BtnContactoBtn}>Pedir Informes</a>
+                        </Link>
+                        <Link href='https://wa.me/525511775805' target="_blank">
+                            <a className={styles.BtnContactoBtn}>Agendar cita</a>
+                        </Link>
                     </div>
                 </div>
             </div>

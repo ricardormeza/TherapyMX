@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/Neurologica.module.css'
 import InvasivaUno from '../components/invasiva/InvasivaUno'
@@ -14,8 +15,12 @@ const Invasiva = () => {
         >
         <div className={styles.HeaderInvasiva}></div>
         <div className={styles.btnPedirCita}>
-            <a>Pedir informes |</a>
+        <Link href='tel:+525547576392'>
+          <a>Pedir informes |</a>
+        </Link>
+        <Link href='https://wa.me/525511775805'>
             <a>Agendar cita</a>
+        </Link>
         </div>
         <div className='separacion'></div>
         <InvasivaUno/>
