@@ -6,24 +6,17 @@ import styles from '../../styles/Home.module.css'
 const InicioUno = () => {
     return (
         <section className='contenedor'>
-            <div className={styles.inicioUnobtns}>
+            {/* <div className={styles.inicioUnobtns}>
                 <div className={styles.bordeBtnInicio}>
                 <a className={styles.btninicio}>¿Quénes somos? /</a> 
                 <a className={styles.btninicio}>¿Cómo funciona?</a>
                 </div>
-            </div>
+            </div> */}
             <div className='separacion'></div>
             <div className={styles.InicioSeccionUno}>
                 <div className={styles.QuienesSomosContenedor}>
                     <div className={styles.QuieneSomosImagen}>
                         <div className={styles.QuienesSomosImg}></div>
-                        {/* <Image src="/img/Quienes-Somos.webp"
-                            alt="Imagen de sesión quiropractica"
-                            width="200px"
-                            height="200px"
-                            layout="responsive"
-                            objectFit='cover'
-                        /> */}
                     </div>
                     <div className={styles.QuienesSomosTexto}>
                         <h3>¿Quiénes somos?</h3>
@@ -39,7 +32,9 @@ const InicioUno = () => {
                             adapte a las necesidades de cada paciente.
                         </p>
                         <br/>
-                        <a>Leer más</a>
+                        <Link href='/quienes-somos'>
+                            <a>Leer más</a>
+                        </Link>
                     </div>
                 </div>
             </div>

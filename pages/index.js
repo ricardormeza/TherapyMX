@@ -3,12 +3,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
+import Quienes from '../components/Quienes'
 import InicioUno from '../components/inicio/InicioUno'
 import InicioDos from '../components/inicio/InicioDos'
 import InicioTres from '../components/inicio/InicioTres'
+import Botones from '../components/Botones'
 import Lesiones from '../components/conocenos/Lesiones'
 import BannerContacto from '../components/BannerContacto'
 import RedeSociales from '../components/conocenos/RedeSociales'
+
 import "swiper/css/bundle";
 
 
@@ -35,6 +38,9 @@ export default function Home() {
             <div></div>
           </div>
         </main>
+        <Quienes>
+          <Botones/>
+        </Quienes>
         {/* <div className='separacion'></div> */}
         <InicioUno/>
         <div className='separacion'></div>
