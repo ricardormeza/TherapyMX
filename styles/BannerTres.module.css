@@ -177,7 +177,6 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
-    border: 1px solid red;
 }
 @media (max-width: 428px){
     .BtnContacto a{
