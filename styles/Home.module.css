@@ -261,15 +261,33 @@
   color: var(--secundary);
   font-weight: bold;
 }
+@media (max-width: 428px){
+  .inicioTresTexto h3{
+    text-align: center;
+    width: 100%;
+  }
+}
 .inicioTresTexto h4{
   color: var(--secundary);
   font-weight: bold;
+}
+@media (max-width: 428px){
+  .inicioTresTexto h4{
+    text-align: center;
+    width: 100%;
+  }
 }
 .inicioTresTexto p{
   font-size: 1.5rem;
   width: 90%;
 }
-
+@media (max-width: 428px){
+  .inicioTresTexto p{
+    margin-top: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+}
 .Comentarios{
   overflow: hidden;
   border-radius: .8rem;

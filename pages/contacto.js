@@ -2,6 +2,7 @@ import React from 'react'
 // import styles from '../styles/Contacto.module.css'
 import Layout from '../components/Layout'
 import ContactoUno from '../components/contacto/ContactoUno'
+import InicioTres from '../components/inicio/InicioTres'
 import BannerContacto from '../components/BannerContacto'
 import RedeSociales from '../components/conocenos/RedeSociales'
 
@@ -12,8 +13,10 @@ const contacto = () => {
             >
             <ContactoUno/>
             <div className='separacion'></div>
-            <div className='separacion'></div>
+            {/* <div className='separacion'></div> */}
             <BannerContacto/>
+            <div className='separacion'></div>
+            <InicioTres/>
             <div className='separacion'></div>
             <RedeSociales/>
             <div className='separacion'></div>
