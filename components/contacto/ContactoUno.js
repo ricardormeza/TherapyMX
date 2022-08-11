@@ -14,13 +14,38 @@ const ContactoUno = () => {
                     </p>
                     <br/>
                     <form className={styles.formulario}>
-                        <input className={styles.input} type="text" name='name' placeholder='Nombre completo' required />
-                        <input className={styles.input} type="email" name='email' placeholder='E-mail' required />
-                        <input className={styles.input} type="tel" name='phone' placeholder='Número' required />
-                        <input className={styles.input} type="date" name='date' />
+                        <div className={styles.formulario_nombre}>
+                            <label>Nombre</label>
+                            <input className={styles.input} type="text" name='name' placeholder='Nombre completo' required />
+                        </div>
+                        <div className={styles.formulario_correo}>
+                            <label>Correo electrónico</label>
+                            <input className={styles.input} type="email" name='email' placeholder='Correo electrónico' required />
+                        </div>
+                        <div className={styles.formulario_telefono}>
+                            <label>Número de teléfono</label>
+                            <input className={styles.input} type="tel" name='phone' placeholder='Número de teléfono' required />
+                        </div>
+                        <div className={styles.formulario_fecha}>
+                            <label>Fecha de cita</label>
+                            <input className={styles.input} type="date" name='date' />
+                        </div>
                         {/* <input className={styles.input} type="datetime" name='new_year' /> */}
-                        <textarea className={styles.textarea} name="message" id="" rows="3" placeholder='Motivos de cita' required></textarea>
+                        <div className={styles.formulario_motivo}>
+                        <label>Motivo de cita</label>
+                            <textarea className={styles.textarea} name="message" id="" rows="3" placeholder='Motivos de cita' required></textarea>
+                        </div>
                     </form>
+
+
+                    {/* <form className={styles.formulario}>
+                        <input className={styles.input} type="text" name='name' placeholder='Nombre completo' required />
+                        <input className={styles.input} type="email" name='email' placeholder='Correo electrónico' required />
+                        <input className={styles.input} type="tel" name='phone' placeholder='Número de teléfono' required />
+                        <input className={styles.input} type="date" name='date' />
+                        
+                        <textarea className={styles.textarea} name="message" id="" rows="3" placeholder='Motivos de cita' required></textarea>
+                    </form> */}
                         <button type='submit' className={styles.btnContacto}>Agendar</button>
                 </div>
                 <div className={styles.contactoImagen}></div>

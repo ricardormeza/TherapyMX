@@ -2,25 +2,36 @@
     display: grid;
     grid-template-columns: 60% 35%;
     gap: 1rem;
-    /* border: 1px solid red; */
+    grid-template-areas: "texto imagen";
 }
 @media (max-width: 428px) {
     .ContactoGrid {
         grid-template-columns: 1fr;
         grid-template-rows: 65% 35%;
+        grid-template-areas: "imagen" "texto";
     }
 }
-/* .ContactoTexto{
-    border: 2px solid green;
-} */
+.ContactoTexto{
+    grid-area: texto;
+}
 .ContactoTexto h1{
     padding: 1rem 0;
+}
+@media (max-width: 1024px) {
+    .ContactoTexto h1 {
+        text-align: center;
+    }
 }
 .ContactoTexto h1 > span{
     color: var(--primary);
 }
 .ContactoTexto p{
     font-size: 1.2rem;
+}
+@media (max-width: 1024px) {
+    .ContactoTexto p {
+        text-align: justify;
+    }
 }
 .contactoImagen{
         background-image: url(/img/Contactanos.webp);
@@ -29,7 +40,7 @@
         /* background-position: 0rem -31rem; */
         height: 30rem;
         background-position: right;
-        
+        grid-area: imagen;
 }
 @media (max-width: 1024px) {
     .contactoImagen {
@@ -44,6 +55,7 @@
 @media (max-width: 428px) {
     .contactoImagen {
         background-size: 75%;
+        background-position: 3rem 0rem;
         height: 20rem;
     }
 }
@@ -51,15 +63,45 @@
     /* display: flex;
     flex-direction: column; */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     font-size: 1.2rem;
+    grid-template-areas: "nombre correo"
+                            "telefono fecha"
+                            "motivo motivo";
 }
 @media (max-width: 768px) {
     .formulario {
         font-size: .8rem;
         grid-template-columns: repeat(2, 1fr);
     }
+}
+/* @media (max-width: 428px) {
+    .formulario {
+        gap: 0rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: "nombre"
+                            "correo"
+                            "telefono" 
+                            "fecha"
+                            "motivo";
+    }
+} */
+.formulario_nombre{
+    grid-area: nombre;
+}
+.formulario_correo{
+    grid-area: correo;
+}
+.formulario_telefono{
+    grid-area: telefono;
+}
+.formulario_fecha{
+    grid-area: fecha;
+}
+.formulario_motivo{
+    grid-area: motivo;
 }
 .input{
     color: black;
