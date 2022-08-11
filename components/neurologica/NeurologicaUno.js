@@ -8,7 +8,7 @@ const NeurologicaUno = () => {
             <div className={styles.imagenNeurologica}></div>
             <div className={styles.QueNeurologia}>
                 <h1>¿Qué es Fisioterapia Neurológica?</h1>
-                <p>La <span>Fisioterapia Nerólogica</span> es la especialidad que se centra
+                <p>La <span>Fisioterapia Neurólogica</span> es la especialidad que se centra
                 en la evolución y el tratamiento de personas con problemas de movimiento,
                 postura y/o equilibrio debido a una enfermedad o lesión del sistema nervioso.
                 </p>

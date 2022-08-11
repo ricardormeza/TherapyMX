@@ -382,7 +382,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
     height: 350px;
   }
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .conocenosImage{
     background-position: -7rem 0rem;
     height: 350px;
@@ -537,8 +537,8 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 }
 @media (max-width: 428px){
   .imagenCorazon{
-    height: 95%;
-    width: 33%;
+    height: 160px;
+    width: 200px;
   }
 }
 
@@ -546,7 +546,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
   color: var(--secundary);
   font-weight: bold;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .corazonTexto h3{
     text-align: center;
   }
@@ -558,10 +558,11 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 .corazonTexto ul > li{
   font-size: 1.5rem;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .corazonTexto ul > li{
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
+    line-height: 28pt;
   }
 }
 .MisionVision{
@@ -586,7 +587,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 .MisionTextoTitulo h2{
   color: var(--secundary);
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .MisionTextoTitulo h2{
     margin: 0 0rem 0 1rem;
     gap: 1rem;
@@ -604,7 +605,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
   width: 90%;
   margin-bottom: 1rem;
 }
-@media (max-width: 414px){
+@media (max-width: 428px){
   .MisionTexto p{
     margin: 0 auto;
     text-align: justify;

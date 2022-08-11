@@ -4,7 +4,6 @@ import styles from '../styles/BannerTres.module.css'
 
 const BannerTres = () => {
     return (
-        
         <section className={styles.BannerTresBg}>
             <div className={`contenedor ${styles.ContenidoBanner}`}>
                 <h5>¿Necesitas saber cuál es el mejor tratamiento para ti?</h5>

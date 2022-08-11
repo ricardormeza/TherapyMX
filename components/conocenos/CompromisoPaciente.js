@@ -11,7 +11,7 @@ const CompromisoPaciente = () => {
                 <ul>
                     <li> {'>'} <span>Tratamiento de alta calidad centrado en el paciente</span>. </li>
                     <li> {'>'} <span>Tratamiento personalizado e individualizado en el paciente</span>. </li>
-                    <li> {'>'} <span>Trato digno, amable y servicial</span> </li>
+                    <li> {'>'} <span>Trato digno, amable y servicial</span>. </li>
                     <li> {'>'} <span>Facturación de los servicios y documentación para su aseguradora</span>. </li>
                     <li> {'>'} <span>Costo justo por el tratamiento, precios accesibles y pago solo por lo que necesitas</span>. </li>
                 </ul>

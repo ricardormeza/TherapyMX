@@ -13,6 +13,9 @@ const neurologica = () => {
     return (
         <Layout
         pagina='Fisioterapia-Neurológica'
+        pageMeta={{
+            description: 'Clínica de fisioterapia en CDMX con especialidad en la fisioterapia neurológica.'
+            }}
         >
         <div className={styles.HeaderNeurologica}></div>
         <div className={styles.btnPedirCita}>

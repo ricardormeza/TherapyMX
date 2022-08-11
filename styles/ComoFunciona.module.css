@@ -6,17 +6,42 @@
     height: 30rem;
 }
 
+@media (max-width: 1024px) {
+    .header {
+        /* background-size: 155%; */
+        background-position: -0rem -18rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        background-size: 155%;
+        background-position: -5rem -19rem;
+        /* height: 350px; */
+    }
+}
+
+@media (max-width: 428px) {
+    .header {
+        background-size: 155%;
+        background-position: -4rem 1rem;
+        background-size: 165%;
+    }
+}
+
 .btnComoFunciona {
     border: 2px solid var(--primary);
     border-radius: 1rem;
     width: 25%;
     text-align: center;
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .btnComoFunciona {
         width: 85%;
     }
 }
+
 .seccionUno {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -36,10 +61,10 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 428px) {
     .seccionUno {
         grid-template-columns: 1fr;
-        grid-template-rows: 150px 500px;
+        grid-template-rows: 163px 500px;
         gap: .5rem;
         margin-top: 1rem;
     }
@@ -73,7 +98,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 428px) {
     .imagenCurita {
         margin: 0 auto;
         height: 71%;
@@ -84,7 +109,6 @@
 .filosofiaContenedor {
     background-color: var(--blanco);
 }
-
 .filosofia {
     display: grid;
     grid-template-columns: 80% 20%;
@@ -92,10 +116,11 @@
     padding: 2rem 0rem;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 428px) {
     .filosofia {
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px;
+        grid-template-rows: 400px 160px;
+        gap: .5rem;
     }
 }
 
@@ -114,45 +139,53 @@
     width: 45%;
     margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .imagenLibreta {
         height: 76%;
         width: 64%;
     }
 }
+
 @media (max-width: 768px) {
     .imagenLibreta {
         height: 50%;
         width: 62%;
     }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .imagenLibreta {
         height: 90%;
         width: 33%;
     }
 }
-.seccionTresContenedor{
+
+.seccionTresContenedor {
     background-image: url(/img/Circulo.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 53rem 5rem;
 }
+
 @media (max-width: 1024px) {
     .seccionTresContenedor {
         background-position: 11rem 5rem;
     }
 }
+
 @media (max-width: 768px) {
     .seccionTresContenedor {
         background-position: 7rem 5rem;
     }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .seccionTresContenedor {
         background-position: 2rem 25rem;
     }
 }
+
 .seccionTres {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -172,15 +205,16 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 428px) {
     .seccionTres {
         grid-template-columns: 1fr;
-        grid-template-rows: 150px auto;
+        grid-template-rows: 165px auto;
         gap: .5rem;
         margin-top: 1rem;
     }
 }
-.imagenValoracion{
+
+.imagenValoracion {
     background-image: url(/img/Objeto-inteligente-vectorial-2.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,32 +222,43 @@
     width: 30%;
     margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .imagenValoracion {
         height: 64%;
         width: 64%;
     }
 }
+
 @media (max-width: 768px) {
     .imagenValoracion {
         height: 46%;
         width: 54%;
     }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .imagenValoracion {
         height: 70%;
         width: 25%;
     }
 }
-.SeccionTresValores h3{
+
+.SeccionTresValores h3 {
     color: var(--secundary);
     font-weight: bold;
 }
-.SeccionTresValores p{
+@media (max-width: 428px) {
+    .SeccionTresValores h3 {
+        text-align: center;
+    }
+}
+
+.SeccionTresValores p {
     font-size: 1.5rem;
 }
-.imagenRazon{
+
+.imagenRazon {
     background-image: url(/img/Objeto-inteligente-vectorial-3.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,25 +266,29 @@
     width: 26%;
     margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .imagenRazon {
         height: 76%;
         width: 54%;
     }
 }
+
 @media (max-width: 768px) {
     .imagenRazon {
         height: 59%;
         width: 54%;
     }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .imagenRazon {
         height: 79%;
         width: 28%;
     }
 }
-.imagenContacto{
+
+.imagenContacto {
     background-image: url(/img/Objeto-inteligente-vectorial-4.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -247,25 +296,29 @@
     width: 35%;
     margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .imagenContacto {
         height: 47%;
         width: 59%;
     }
 }
+
 @media (max-width: 768px) {
     .imagenContacto {
         height: 44%;
         width: 71%;
     }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .imagenContacto {
         height: 60%;
         width: 38%;
     }
 }
-.imagenTerapia{
+
+.imagenTerapia {
     background-image: url(/img/Objeto-inteligente-vectorial-5.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,19 +326,22 @@
     width: 31%;
     margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .imagenTerapia {
         height: 49%;
         width: 59%;
     }
 }
+
 @media (max-width: 768px) {
     .imagenTerapia {
         height: 44%;
         width: 65%;
     }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 428px) {
     .imagenTerapia {
         height: 69%;
         width: 34%;

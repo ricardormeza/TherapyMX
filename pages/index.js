@@ -19,7 +19,11 @@ import "swiper/css/bundle";
 export default function Home() {
   return (
     <Layout
-        pagina="Inicio"
+        pagina="Clínica de fisioterapia en CDMX"
+        pageMeta={{
+          
+          description: 'Clínica de fisioterapia en Ciudad de México donde te ayudamos en tu recuperación. Atendemos desde un dolor agudo hasta padecimientos crónicos.'
+        }}
       >
         <main className={styles.InicioImagen}>
           <div className={styles.InicioHeadGrdiContainer}>
@@ -41,14 +45,11 @@ export default function Home() {
         <Quienes>
           <Botones/>
         </Quienes>
-        {/* <div className='separacion'></div> */}
+        
         <InicioUno/>
         <div className='separacion'></div>
         <InicioDos/>
         <div className='separacion'></div>
-        
-          
-          <div className='separacion'></div>
           <BannerContacto/>
           <div className='separacion'></div>
           <InicioTres/>

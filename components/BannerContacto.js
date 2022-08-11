@@ -6,7 +6,7 @@ const BannerContacto = () => {
   return (
     <section className={styles.BannerContactosBg}>
             <div className={`contenedor ${styles.ContenidoBannerContacto}`}>
-                <div></div>
+                <div className={styles.BannerContactoVacio}></div>
                 <div className={styles.BannerContactoTexto}>
                     <h5>Servicio de fisioterapia a domicilio</h5>
                     <p>Con <span>Up Therapy</span> no necesitas una instalación especial, 

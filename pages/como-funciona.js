@@ -13,7 +13,7 @@ import RedeSociales from '../components/conocenos/RedeSociales'
 const comofunciona = () => {
   return (
     <Layout
-      pagina='Como funciona'
+      pagina='como-funciona'
     >
       <div className={styles.header}></div>
       <h3 className={`contenedor ${styles.btnComoFunciona}`}>¿Cómo funciona?</h3>

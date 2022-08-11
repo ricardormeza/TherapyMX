@@ -107,32 +107,44 @@
 }
 @media (max-width: 428px){
     .BannerContactosBg{
-    background-position: -50rem 0rem;
+    background-position: -21rem 22rem;
+    background-size: auto;
+    height: 40rem;
     }
 }
 .ContenidoBannerContacto{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "vacio texto";
+    /* border: 1px solid red; */
 }
 @media (max-width: 768px){
     .ContenidoBannerContacto{
-    grid-template-columns: 35% 70%;
+    grid-template-columns: 48% 64%;
     /* grid-template-rows: 5px auto; */
     }
 }
 @media (max-width: 428px){
     .ContenidoBannerContacto{
     grid-template-columns: 1fr;
-    grid-template-rows: 5px auto;
+    /* grid-template-rows: 5px auto; */
+    grid-template-rows: 200px 400px;
+    grid-template-areas: "texto"
+                        "vacio";
     }
 }
+.BannerContactoVacio{
+    grid-area: vacio;
+}
 .BannerContactoTexto{
+    grid-area: texto;
     padding-top: 4rem;
     width: 80%;
 }
 @media (max-width: 428px){
     .BannerContactoTexto{
-    width: 95%;
+        /* height: 80%; */
+    width: 98%;
     }
 }
 @media (max-width: 1024px){
@@ -164,6 +176,13 @@
 .BtnContacto{
     display: flex;
     gap: 1rem;
+    justify-content: center;
+    border: 1px solid red;
+}
+@media (max-width: 428px){
+    .BtnContacto a{
+    font-size: .8rem;
+    }
 }
 .BtnContactoBtn{
     background-color: transparent;
