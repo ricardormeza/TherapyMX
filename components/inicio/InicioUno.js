@@ -38,6 +38,7 @@ const InicioUno = () => {
                     </div>
                 </div>
             </div>
+            <div className='separacion'></div>
         </section>
     )
 }
