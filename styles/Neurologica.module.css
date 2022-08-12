@@ -47,6 +47,14 @@
         font-size: 1.2rem;
     }
 }
+@media (max-width: 375px) {
+    .btnPedirCita {
+        width: 80%;
+    }
+    .btnPedirCita a{
+        font-size: 1rem;
+    }
+}
 .btnPedirCita a{
     margin: 1rem;
     cursor: pointer;

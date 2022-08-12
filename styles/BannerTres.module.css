@@ -107,9 +107,16 @@
 }
 @media (max-width: 428px){
     .BannerContactosBg{
-    background-position: -21rem 22rem;
+    background-position: -25rem 23rem;
     background-size: auto;
-    height: 40rem;
+    height: 45rem;
+    }
+}
+@media (max-width: 375px){
+    .BannerContactosBg{
+    background-position: -25rem 26rem;
+    background-size: auto;
+    height: 45rem;
     }
 }
 .ContenidoBannerContacto{
@@ -128,7 +135,16 @@
     .ContenidoBannerContacto{
     grid-template-columns: 1fr;
     /* grid-template-rows: 5px auto; */
-    grid-template-rows: 200px 400px;
+    grid-template-rows: 350px 280px;
+    grid-template-areas: "texto"
+                        "vacio";
+    }
+}
+@media (max-width: 375px){
+    .ContenidoBannerContacto{
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 5px auto; */
+    grid-template-rows: 410px 280px;
     grid-template-areas: "texto"
                         "vacio";
     }

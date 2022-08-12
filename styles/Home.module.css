@@ -138,9 +138,16 @@
 }
 @media (max-width: 428px){
   .InicioImagen{
-    background-size: 155%;
+    /* background-size: 155%; */
     background-position: -4rem 1rem;
     background-size: 165%;
+  }
+}
+@media (max-width: 360px){
+  .InicioImagen{
+    background-position: -10.1rem 1rem;
+    background-size: 204%;
+    
   }
 }
 .InicioHeadGrdiContainer{
