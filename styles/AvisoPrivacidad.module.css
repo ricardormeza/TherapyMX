@@ -1,0 +1,17 @@
+.encabezado{
+    align-items: center;
+    background-color: #716bf3;
+    color: white;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+}
+.contenedorTexto{
+    width: 90%;
+    margin: 0 auto;
+}
+.parrafos{
+    font-size: 1.3rem;
+    color: #555;
+    text-align: justify;
+}

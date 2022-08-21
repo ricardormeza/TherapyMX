@@ -68,34 +68,34 @@ const Footer = () => {
                 </Link>
             </div>
             <div className={styles.FooterContenedorSecciones}>
-                <Link href='/'>
+                <Link href='/presoterapia'>
                     <a className={styles.redesEnlaces}
-                    aria-label='enlace de citas de whatsapp de Up Therapy MX'
-                    target="_blank"
+                    aria-label='enlace servicios e innovacioens de Up Therapy MX'
+                    
                     > {'>'} <span>Servicios e Innovaciones.</span></a>
                 </Link>
-                <Link href='/'>
+                <Link href='/seguros-gastos-medicos'>
                     <a className={styles.redesEnlaces}
                     aria-label='enlace de citas de whatsapp de Up Therapy MX'
-                    target="_blank"
+                    
                     > {'>'} <span>Seguros de gastos médicos.</span></a>
                 </Link>
-                <Link href='/'>
+                <Link href='/aviso-privacidad'>
                     <a className={styles.redesEnlaces}
-                    aria-label='enlace de citas de whatsapp de Up Therapy MX'
-                    target="_blank"
+                    aria-label='enlace de aviso de privacidad de Up Therapy MX'
+                    
                     > {'>'} <span>Aviso de Privacidad.</span></a>
                 </Link>
-                <Link href='/'>
+                <Link href='https://masajecdmx.com/'>
                     <a className={styles.redesEnlaces}
                     aria-label='enlace de citas de whatsapp de Up Therapy MX'
                     target="_blank"
                     > {'>'} <span>Masajes.</span></a>
                 </Link>
-                <Link href='/'>
+                <Link href='/contacto'>
                     <a className={styles.redesEnlaces}
                     aria-label='enlace de citas de whatsapp de Up Therapy MX'
-                    target="_blank"
+                    
                     > {'>'} <span>Contacto.</span></a>
                 </Link>
             </div>
