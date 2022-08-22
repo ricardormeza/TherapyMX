@@ -38,8 +38,7 @@ const Footer = () => {
             <div className={styles.FooterContenedorSecciones}>
                 <Link href='/'>
                     <a className={styles.redesEnlaces}
-                    aria-label='enlace de citas de whatsapp de Up Therapy MX'
-                    target="_blank"
+                    aria-label='enlace a página inicial de Up Therapy MX'
                     > {'>'} <span>Inicio</span></a>
                 </Link>
                 <Link href='/'>

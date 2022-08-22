@@ -6,6 +6,11 @@
     height: 5rem;
     justify-content: center;
 }
+@media (max-width: 428px){
+    .encabezado{
+        font-size: 1.7rem;
+    }
+}
 .contenedorTexto{
     width: 90%;
     margin: 0 auto;
@@ -14,4 +19,195 @@
     font-size: 1.3rem;
     color: #555;
     text-align: justify;
+}
+/*===========GASTOS MEDICOS===========*/
+.imagenGastosMedicos{
+    background-image: url(/img/Seguro-gastos-medicos.webp);
+    background-size: cover;
+    background-position: 0rem -7rem;
+    background-repeat: no-repeat;
+    height: 35rem;
+    /* border: 1px solid red!important; */
+}
+@media (max-width: 1024px){
+    .imagenGastosMedicos{
+        background-position: 0rem -2rem;
+        height: 25rem;
+        /* background-position: -17rem 0rem; */
+    }
+}
+@media (max-width: 768px){
+    .imagenGastosMedicos{
+        background-position: 0rem 0rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 428px){
+    .imagenGastosMedicos{
+        background-position: 0rem 0rem;
+        height: 13rem;
+    }
+}
+/*===========GASTOS MEDICOS SECCION UNO===========*/
+.botonCitasContenedor{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.botones{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    height: 5rem;
+    width: 35%;
+    border-radius: 1.3rem;
+    border: 2px solid #716bf3;
+}
+.botones a:hover{
+    color: #716bf3;
+}
+@media (max-width: 1024px){
+    .botones{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .botones{
+        width: 60%;
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 428px){
+    .botones{
+        width: 75%;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 360px){
+    .botones{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+}
+.lineaBtn{
+    padding-right: 10px;
+    border-right: 4px solid #716bf3;
+}
+.SeccionUno h1{
+    color: #716bf3;
+}
+@media (max-width: 428px){
+    .SeccionUno h1{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+}
+/*===========GASTOS MEDICOS SECCION PASOS =============*/
+.PasosGastosContenedor h2{
+    color: var(--secundary);
+}
+@media (max-width: 428px){
+    .PasosGastosContenedor h2{
+        text-align: center;
+    }
+}
+.PasoUno{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+@media (max-width: 428px){
+    .PasoUno{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+    }
+}
+.NumeroUno{
+    background-image: url(/img/GrupoUno.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+    /* border: 1px solid red; */
+}
+@media (max-width: 428px){
+    .NumeroUno{
+        margin: 0 auto;
+    }
+}
+.subTitle{
+    color: var(--secundary);
+}
+@media (max-width: 428px){
+    .subTitle{
+        text-align: center;
+    }
+}
+.BackgroundGray{
+    background-color: #f3f3f3
+}
+.NumeroDos{
+    background-image: url(/img/GrupoDos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+    /* border: 1px solid red; */
+}
+@media (max-width: 428px){
+    .NumeroDos{
+        margin: 0 auto;
+    }
+}
+.NumeroTres{
+    background-image: url(/img/GrupoTres.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+}
+@media (max-width: 428px){
+    .NumeroTres{
+        margin: 0 auto;
+    }
+}
+.NumeroCuatro{
+    background-image: url(/img/GrupoCuatro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+}
+@media (max-width: 428px){
+    .NumeroCuatro{
+        margin: 0 auto;
+    }
+}
+.imageCheck{
+    background-image: url(/img/Check.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+}
+@media (max-width: 428px){
+    .imageCheck{
+        margin: 0 auto;
+    }
+}
+.TituloCheck{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@media (max-width: 428px){
+    .TituloCheck{
+        text-align: center;
+    }
+}
+.TituloCheck h3{
+    color: var(--secundary);
 }

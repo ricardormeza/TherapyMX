@@ -43,7 +43,7 @@ const RedeSociales = () => {
             </Link>
         </div>
         <div className={styles.redesEnlacesGastosMedicos}>
-            <Link href='/'>
+            <Link href='/seguros-gastos-medicos'>
                 <a className={styles.redesEnlaces}
                 aria-label='enlace a sección de seguro de gastos medicos de Up Therapy MX'
                 >Seguro de Gastos Médicos </a>
