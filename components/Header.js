@@ -122,13 +122,13 @@ const resources = [
     {
         name: 'Seguro de gastos médicos',
         description: '',
-        href: '#',
+        href: '/seguro-gastos-medicos',
         icon: SupportIcon,
     },
     {
         name: 'Aviso de privacidad',
         description: 'Learn how to maximize our platform to get the most out of it.',
-        href: '#',
+        href: '/aviso-privacidad',
         icon: BookmarkAltIcon,
     },
 ]
