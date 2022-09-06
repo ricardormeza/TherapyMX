@@ -26,7 +26,7 @@ const Layout = ({children, pagina, pageMeta }) => {
             padecimientos crónicos. ' /> */}
     
             <link rel="icon" href='/img/UpTherapy-ico.ico' />
-            <link rel="canonical" href={`https://www.uptherapy.com.mx/${pagina}.html`}/>
+            <link rel="canonical" href={`https://www.uptherapy.com.mx${router.asPath}`}/>
             <meta property="og:title" content={pagina} key="title" />
 
             <meta property='og:url' content={`https://www.uptherapy.com.mx${router.asPath}`}/>
