@@ -11,7 +11,6 @@ import Botones from '../components/Botones'
 import Lesiones from '../components/conocenos/Lesiones'
 import BannerContacto from '../components/BannerContacto'
 import RedeSociales from '../components/conocenos/RedeSociales'
-
 import "swiper/css/bundle";
 
 
@@ -28,7 +27,7 @@ export default function Home() {
         <main className={styles.InicioImagen}>
           <div className={styles.InicioHeadGrdiContainer}>
             <div className={styles.InicioGridText}>
-              <h2>Tu bienestar está en nuestras manos.</h2>
+              <h2 className="tituloT">Tu bienestar está en nuestras manos.</h2>
               <p>Somos <span>expertos en tratamientos de fisioterapia.</span> </p>
               <div className={styles.BtnContacto}>
                 <Link href='/contacto'>

@@ -54,7 +54,7 @@ const uno = () => {
                                 
                                 <br />
                                 <Link href='/como-funciona'>
-                                    <a>Leer más</a>
+                                    <a className={styles.enlace}>Leer más</a>
                                 </Link>
                             </div>
                         </div>

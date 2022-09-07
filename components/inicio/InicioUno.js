@@ -33,7 +33,7 @@ const InicioUno = () => {
                         </p>
                         <br/>
                         <Link href='/quienes-somos'>
-                            <a>Leer más</a>
+                            <a className={styles.enlace}>Leer más</a>
                         </Link>
                     </div>
                 </div>

@@ -142,11 +142,34 @@
     background-position: -4rem 1rem;
     background-size: 165%;
   }
+  /* .InicioImagen::after{
+    display: block;
+    position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -160px;
+  height: 186px;
+  width: 100%;
+  content: '';
+  } */
+}
+@media (max-width: 375px){
+  .InicioImagen{
+    background-position: -10.1rem 1rem;
+    background-size: 180%;
+    
+  }
 }
 @media (max-width: 360px){
   .InicioImagen{
     background-position: -10.1rem 1rem;
     background-size: 204%;
+    
+  }
+}
+@media (max-width: 320px){
+  .InicioImagen{
+    background-position: -10.1rem 1rem;
+    background-size: 217%;
     
   }
 }
@@ -157,20 +180,46 @@
   align-items: center;
   height: 90%;
 }
+@media (max-width: 428px){
+  .InicioHeadGrdiContainer{
+    grid-template-columns: 1fr;
+    grid-template-rows: 165% 10%;
+  }
+}
 .InicioGridText h2{
   color: var(--secundary);
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   width: 65%;
+  text-shadow: 2px 2px 2px #FFFFFF;
+}
+@media (max-width: 428px){
+  .InicioGridText h2{
+    text-align: center;
+    width: 100%;
+  }
 }
 .InicioGridText{
   /* border: 1px solid red; */
   font-size: 1rem;
   margin: 0 auto;
+  padding-left: 1rem;
 }
 @media (max-width: 768px){
   .InicioGridText{
     margin-left: 2rem;
+  }
+}
+@media (max-width: 428px){
+  .InicioGridText{
+    margin-left: 0!important;
+    padding-left: 0!important;
+    text-shadow: 2px 2px 2px #FFFFFF;
+  }
+  .InicioGridText p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
   }
 }
 .BtnContacto{
@@ -179,7 +228,9 @@
 }
 @media (max-width: 428px){
   .BtnContacto{
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: .5rem;
     gap: .5rem;
   }
 }
@@ -213,14 +264,68 @@
   gap: 1rem;
 }
 .bordeBtnInicio{
-  background-color: transparent;
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    height: 5rem;
+    width: 35%;
+    border-radius: 1.3rem;
+    border: 2px solid #716bf3;
+  /* background-color: transparent;
   border: 3px solid var(--primary);
   padding: .3rem 2rem;
   border-radius: .8rem;
-  transition: .3s all;
+  transition: .3s all; */
+}@media (max-width: 1024px){
+  .bordeBtnInicio{
+      width: 35%;
+  }
+}
+@media (max-width: 768px){
+  .bordeBtnInicio{
+      width: 45%;
+      /* font-size: 1.7rem; */
+  }
+}
+@media (max-width: 428px){
+  .bordeBtnInicio{
+      width: 75%;
+      font-size: 1.2rem;
+  }
+}
+@media (max-width: 360px){
+  .bordeBtnInicio{
+      width: 80%;
+      font-size: 1.2rem;
+  }
+}
+.lineaBtn{
+  padding-right: 10px;
+  border-right: 4px solid #716bf3;
+  display: flex;
+  align-items: center;
+}
+.lineaBtn a{
+  text-align: center;
+  font-size: 1.125rem;
+}
+.lineaBtnB{
+  display: flex;
+  align-items: center;
+}
+.lineaBtnB a{
+  text-align: left!important;
+  font-size: 1.125rem;
+}
+@media (max-width: 428px){
+  .lineaBtn{
+      height: 80%;
+  }
 }
 .btninicio{
-  font-size: 1rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 .btninicio:hover{
@@ -353,22 +458,27 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 }
 .QuienesSomosTexto h3{
   color: var(--secundary);
-  font-size: 2.5rem;
+  font-size: 1.688rem;
   font-weight: bold;
+  /* text-transform: uppercase; */
 }
 @media (max-width: 768px){
   .QuienesSomosTexto h3{
+    font-size: 1.4rem;
     text-align: center;
   }
 }
 .QuienesSomosTexto p{
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
 }
 .QuienesSomosTexto a{
   color: var(--primary);
   text-decoration: underline;
   cursor: pointer;
+}
+.enlace{
+  font-size: 1.4rem;
 }
 /* COMO FUNCIONA  */
 .ComoFuncionaImg{

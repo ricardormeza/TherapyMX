@@ -6,6 +6,7 @@
   --fondo: #ffffff;
   --footer: #1e1e44;
   --fuente-principal: 'Outfit', sans-serif;
+  --titulo: 1.688rem;
 }
 html {
   /* font-size: 62.5%; */
@@ -28,6 +29,10 @@ body {
 [class*="separacion"]{
   padding: 2rem
 }
+[class*="tituloT"]{
+  font-size: var(--titulo)!important;
+}
+
 
 @tailwind base;
 @tailwind components;
