@@ -51,7 +51,7 @@
 .seccionUno p {
     font-size: 1.5rem;
     text-align: justify;
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
 }
 
@@ -64,9 +64,14 @@
 @media (max-width: 428px) {
     .seccionUno {
         grid-template-columns: 1fr;
-        grid-template-rows: 163px 500px;
+        grid-template-rows: 163px 480px;
         gap: .5rem;
         margin-top: 1rem;
+    }
+}
+@media (max-width: 320px) {
+    .seccionUno {
+        grid-template-rows: 163px 620px;
     }
 }
 
@@ -87,14 +92,14 @@
 @media (max-width: 1024px) {
     .imagenCurita {
         height: 51%;
-        width: 70%;
+        width: 59%;
     }
 }
 
 @media (max-width: 768px) {
     .imagenCurita {
         height: 40%;
-        width: 76%;
+        width: 69%;
     }
 }
 
@@ -103,6 +108,17 @@
         margin: 0 auto;
         height: 71%;
         width: 30%;
+    }
+}
+@media (max-width: 375px) {
+    .imagenCurita {
+        height: 62%;
+        /* width: 30%; */
+    }
+}
+@media (max-width: 320px) {
+    .imagenCurita {
+        height: 52%;
     }
 }
 
@@ -158,6 +174,17 @@
     .imagenLibreta {
         height: 90%;
         width: 33%;
+    }
+}
+@media (max-width: 375px) {
+    .imagenLibreta {
+        height: 80%;
+    }
+}
+@media (max-width: 320px) {
+    .imagenLibreta {
+        height: 68%;
+        
     }
 }
 
@@ -243,6 +270,17 @@
         width: 25%;
     }
 }
+@media (max-width: 375px) {
+    .imagenValoracion {
+        height: 62%;
+    }
+}
+@media (max-width: 320px) {
+    .imagenValoracion {
+        height: 54%;
+        
+    }
+}
 
 .SeccionTresValores h3 {
     color: var(--secundary);
@@ -287,6 +325,18 @@
         width: 28%;
     }
 }
+@media (max-width: 375px) {
+    .imagenRazon {
+        height: 69%;
+        /* width: 31%; */
+    }
+}
+@media (max-width: 320px) {
+    .imagenRazon {
+        height: 60%;
+        width: 29%;
+    }
+}
 
 .imagenContacto {
     background-image: url(/img/Objeto-inteligente-vectorial-4.webp);
@@ -317,6 +367,16 @@
         width: 38%;
     }
 }
+@media (max-width: 375px) {
+    .imagenContacto {
+        height: 52%;
+    }
+}
+@media (max-width: 320px) {
+    .imagenContacto {
+        height: 45%;
+    }
+}
 
 .imagenTerapia {
     background-image: url(/img/Objeto-inteligente-vectorial-5.webp);
@@ -345,5 +405,15 @@
     .imagenTerapia {
         height: 69%;
         width: 34%;
+    }
+}
+@media (max-width: 375px) {
+    .imagenTerapia {
+        height: 60%;
+    }
+}
+@media (max-width: 320px) {
+    .imagenTerapia {
+        height: 51%;
     }
 }

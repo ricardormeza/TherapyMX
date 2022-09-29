@@ -10,11 +10,12 @@ import BannerTres from '../components/BannerTres'
 import RedeSociales from '../components/conocenos/RedeSociales'
 
 const neurologica = () => {
+    
     return (
         <Layout
         pagina='Fisioterapia-Neurológica'
         pageMeta={{
-            description: 'Clínica de fisioterapia en CDMX con especialidad en la fisioterapia neurológica.'
+            description: 'Clínica de fisioterapia en CDMX con especialidad en la fisioterapia neurológicaaaaa.'
             }}
         >
         <div className={styles.HeaderNeurologica}></div>
