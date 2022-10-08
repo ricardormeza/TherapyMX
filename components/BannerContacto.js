@@ -12,11 +12,15 @@ const BannerContacto = () => {
                     <p>Con <span>Up Therapy</span> no necesitas una instalación especial, 
                     nos adaptamos a tu espacio llevando todo el equipo necesario para tu tratamiento</p>
                     <div className={`contenedor ${styles.BtnContacto}`}>
-                        <Link href='tel:+525547576392' target="_blank">
-                            <a className={styles.BtnContactoBtn}>Pedir Informes</a>
+                        <Link href='https://wa.me/525511775805'>
+                            <a title='Enviar mensaje por Whatsapp'
+                            target="_blank" 
+                            className={styles.BtnContactoBtn}>Pedir Informes</a>
                         </Link>
-                        <Link href='https://wa.me/525511775805' target="_blank">
-                            <a className={styles.BtnContactoBtn}>Agendar cita</a>
+                        <Link href='https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico'>
+                            <a title='Agendar cita en Doctoralia'
+                            target="_blank" 
+                            className={styles.BtnContactoBtn}>Agendar cita</a>
                         </Link>
                     </div>
                 </div>

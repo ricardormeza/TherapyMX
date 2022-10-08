@@ -9,7 +9,7 @@ const NeurologicaTres = () => {
             <div className={styles.NeurologicaTresContenido}>
                 <h3>Valoración Neurológica</h3>
                 <p>En <span>Up Therapy MX</span> tras una valoración inicial, el <span>fisioterapeuta</span> 
-                determina los problemas susceptibles de tratamiento para continuar de manera consensuada con 
+                 determina los problemas susceptibles de tratamiento para continuar de manera consensuada con 
                 el paciente y/o familiares para plantear los objetivos terapéuticos. Cada lesión y cada 
                 paciente son diferentes. Por este motivo, la mejor opción es un tratamiento de rehabilitación
                 específico e individualizado.</p>

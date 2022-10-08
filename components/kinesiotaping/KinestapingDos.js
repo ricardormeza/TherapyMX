@@ -37,7 +37,7 @@ const KinestapingDos = () => {
                             <li>{'>'} <span>Correción mecánica</span>.</li>
                             <li>{'>'} <span>Fascial</span>.</li>
                             <li>{'>'} <span>Aumento de espacio</span>.</li>
-                            <li>{'>'} <span>Fátiga</span>.</li>
+                            <li>{'>'} <span>Fatiga</span>.</li>
                             <li>{'>'} <span>Segmental</span>.</li>
                         </ul>
                         <div className={styles.kinestapingCorazon}></div>

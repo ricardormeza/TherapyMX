@@ -177,6 +177,13 @@
         text-align: center;
     }
 }
+
+@media (max-width: 428px) {
+    .ContenidoSeccTresText ul {
+        width: 92%;
+        margin: 0 auto;
+    }
+}
 .ContenidoSeccTresText ul > li{
     font-size: 1.5rem;
     color: var(--primary);
@@ -185,7 +192,7 @@
 }
 @media (max-width: 428px) {
     .ContenidoSeccTresText ul > li {
-        text-align: center;
+        text-align: justify;
     }
 }
 .ContenidoSeccTresText li > span {
@@ -301,6 +308,8 @@
 
 .SeccionCuatroParrafo{
     font-size: 1.5rem;
+    width: 93%;
+    margin-top: 1rem;
 }
 /* ======== SECCION KINESIOTAPING ============= */
 .HeaderKinesiotaping{

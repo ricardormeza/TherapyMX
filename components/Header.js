@@ -32,7 +32,7 @@ const solutions = [
     },
     {
         name: '¿Cómo funciona?',
-        description: 'Speak directly to your customers in a more meaningful way.',
+        description: 'Realizamos terapía física a domicilio',
         href: '/como-funciona',
         icon: CursorClickIcon,
     }

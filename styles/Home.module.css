@@ -588,6 +588,16 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
     width: 30%;
   }
 }
+@media (max-width: 375px){
+  .imagenCurita{
+    width: 34%;
+  }
+}
+@media (max-width: 320px){
+  .imagenCurita{
+    width: 40%;
+  }
+}
 .filosofiaContenedor{
   background-color: var(--blanco);
 }
@@ -687,7 +697,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
   }
 }
 .corazonTexto ul{
-  width: 95%;
+  width: 87%;
   margin: 0 auto;
 }
 .corazonTexto ul > li{
@@ -696,7 +706,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 @media (max-width: 428px){
   .corazonTexto ul > li{
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     line-height: 28pt;
   }
 }
@@ -778,9 +788,10 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 @media (max-width: 428px){
   .MisionVisionValores{
     border: none;
-    padding-left: 0;
-    margin: 0 auto;
+    padding-left: 1rem;
+    /* margin: 0 auto; */
     padding-top: 1rem;
+    width: 95%;
   }
 }
 .BgLesion{

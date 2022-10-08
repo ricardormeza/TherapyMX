@@ -11,8 +11,8 @@ const BiomecanicaCuatro = () => {
                             En estas sesión se abre el expediente de cada paciente, además de 
                             realizarse las pruebas ortopédicas necesarias para llegar a un diagnóstico 
                             preciso en fisioterapia. Se evalúa también, los patrones de movimiento 
-                            normales y anarmales del movimiento del paciente, además de la biomecánica 
-                            de la condición actual
+                            normales y anormales del movimiento del paciente, además de la biomecánica 
+                            de la condición actual.
                         </p>
                         <br/>
                         <p className='contenedor'>

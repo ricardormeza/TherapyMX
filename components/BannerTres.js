@@ -10,8 +10,8 @@ const BannerTres = () => {
                 <p>¡Agenda una consulta con un <span>fisioterapeuta especialista!</span></p>
             </div>
             <div className={`contenedor ${styles.BannerTresBtn}`}>
-                <Link href='https://wa.me/525511775805'>
-                    <a>Agendar cita</a>
+                <Link href='https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico'>
+                    <a title='Agendar cita en Doctoralia'>Agendar cita</a>
                 </Link>
             </div>
         </section>

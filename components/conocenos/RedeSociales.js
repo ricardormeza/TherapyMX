@@ -54,6 +54,7 @@ const RedeSociales = () => {
                 >/ aviso de privacidad</a>
             </Link>
         </div>
+        <br/>
     </section>
   )
 }

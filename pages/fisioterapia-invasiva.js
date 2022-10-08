@@ -15,11 +15,11 @@ const Invasiva = () => {
         >
         <div className={styles.HeaderInvasiva}></div>
         <div className={styles.btnPedirCita}>
-        <Link href='tel:+525547576392'>
-          <a>Pedir informes |</a>
-        </Link>
         <Link href='https://wa.me/525511775805'>
-            <a>Agendar cita</a>
+          <a title='Enviar mensaje por Whatsapp'>Pedir informes |</a>
+        </Link>
+        <Link href='https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico'>
+            <a title='Agendar cita en Doctoralia'>Agendar cita</a>
         </Link>
         </div>
         <div className='separacion'></div>

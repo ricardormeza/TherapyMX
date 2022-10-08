@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 import inicioCuatro from './inicioCuatro'
 
@@ -16,7 +17,13 @@ const InicioTres = () => {
           </p>
         </div>
         <div className={styles.Comentarios}>
-        <div className={styles.ComentariosImg}></div>
+        
+        <Link href='https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico'>
+          <a title='Agendar cita en Doctoralia' target='_blank'>
+          <div className={styles.ComentariosImg}></div>
+          </a>
+        </Link>
+        
             
           </div>
       </div>

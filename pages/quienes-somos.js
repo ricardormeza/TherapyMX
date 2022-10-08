@@ -30,7 +30,7 @@ const quienessomos = () => {
         <div className='separacion'></div>
         <div className={styles.filosofiaContenedor}>
           <div className={`contenedor ${styles.filosofia}`}>
-            <p>La filosofia de <span>Up Therapy Mx</span>, se basa en realizar un razonamiento clínico personalizado
+            <p>La filosofía de <span>Up Therapy Mx</span>, se basa en realizar un razonamiento clínico personalizado
               para un tratamiento eficaz de acuerdo a cada lesión o patología. Cuenta con un equipo de trabajo <span>experto</span>,
               el cuál busca la mejor solución que se adapte a las necesidades de cada paciente.
             </p>
