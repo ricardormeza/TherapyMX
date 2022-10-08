@@ -33,7 +33,7 @@ const KinestapingDos = () => {
                         <ul className={`contenedor ${styles.KinesiotapingListado}`}>
                             <li>{'>'} <span>Muscular</span>.</li>
                             <li>{'>'} <span>Ligamento-tendón</span>.</li>
-                            <li>{'>'} <span>Correción articular funcional.</span>.</li>
+                            <li>{'>'} <span>Correción articular funcional</span>.</li>
                             <li>{'>'} <span>Correción mecánica</span>.</li>
                             <li>{'>'} <span>Fascial</span>.</li>
                             <li>{'>'} <span>Aumento de espacio</span>.</li>

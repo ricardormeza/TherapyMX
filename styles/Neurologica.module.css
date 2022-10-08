@@ -105,7 +105,7 @@
 }
 @media (max-width: 450px) {
     .QueNeurologia p {
-        text-align: center;
+        text-align: justify;
         margin: 0 auto;
     }
 }
@@ -157,7 +157,10 @@
 }
 @media (max-width: 428px) {
     .listadoAspectos{
-    text-align: center;
+    text-align: justify;
+    padding-top: 1rem;
+    width: 90%;
+    margin: 0 auto;
     }
 }
 .PatologiasTexto h2 {
@@ -172,12 +175,15 @@
     }
 }
 .PatologiasTexto p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 @media (max-width: 428px) {
     .PatologiasTexto p{
-    text-align: center;
+    text-align: justify;
+    width: 93%;
+    margin: 0 auto;
+    letter-spacing: 0.05cm;
     }
 }
 .PatologiasTexto ul > li{
@@ -249,7 +255,7 @@
 }
 @media (max-width: 428px) {
     .NeurologicaTresContenido p{
-    text-align: center;
+    text-align: justify;
     }
 }
 .corazonSeccionImg{
@@ -330,7 +336,7 @@
 }
 @media (max-width: 428px) {
     .NeurologicaTresContenidoCorazon p{
-    text-align: center;
+    text-align: justify;
     }
 }
 /* ============== SECCION PEDIATRICA =============== */
