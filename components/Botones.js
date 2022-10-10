@@ -7,7 +7,7 @@ const Botones = () => {
         <div className={styles.inicioUnobtns}>
             <div className={styles.bordeBtnInicio}>
                 <div className={styles.lineaBtn}>
-                    <Link href='/'>
+                    <Link href='/#quieneSomos'>
                         <a className={styles.btninicio}>¿Quénes somos?</a> 
                     </Link>
                 </div>

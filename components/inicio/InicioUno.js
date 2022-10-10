@@ -19,7 +19,7 @@ const InicioUno = () => {
                         <div className={styles.QuienesSomosImg}></div>
                     </div>
                     <div className={styles.QuienesSomosTexto}>
-                        <h3>¿Quiénes somos?</h3>
+                        <h3 id='quieneSomos'>¿Quiénes somos?</h3>
                         <p>Up Therapy MX es una clínica de rehabilitación y terapia física que 
                             busca la innovación en los tratamientos y técnicas para una <strong>rápida
                                 recuperación
@@ -33,7 +33,7 @@ const InicioUno = () => {
                         </p>
                         <br/>
                         <Link href='/quienes-somos'>
-                            <a className={styles.enlace}>Leer más</a>
+                            <a title='ir a sección quienes somos' className={styles.enlace}>Leer más</a>
                         </Link>
                     </div>
                 </div>
