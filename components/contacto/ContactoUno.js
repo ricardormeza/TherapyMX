@@ -51,7 +51,7 @@ const ContactoUno = () => {
                 </div>
                 <div className={styles.contactoImagen}></div>
             </div>
-            {/* <DoctorCita/> */}
+            <DoctorCita/>
             
         </main>
     )
