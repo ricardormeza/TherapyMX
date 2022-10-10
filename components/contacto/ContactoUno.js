@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Contacto.module.css'
+import DoctorCita from './DoctorCita'
 
 const ContactoUno = () => {
     return (
@@ -50,6 +51,7 @@ const ContactoUno = () => {
                 </div>
                 <div className={styles.contactoImagen}></div>
             </div>
+            {/* <DoctorCita/> */}
             
         </main>
     )

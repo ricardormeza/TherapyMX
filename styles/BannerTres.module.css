@@ -77,7 +77,7 @@
     background-color: white;
     cursor: pointer;
     padding: .7rem 2rem;
-    /* width: 15%; */
+    font-weight: bold;
 }
 @media (max-width: 428px){
     .BannerTresBtn {
@@ -207,6 +207,7 @@
     transition: .3s all;
     font-size: 1rem;
     cursor: pointer;
+    font-weight: bold;
 }
 .BtnContactoBtn:hover{
     background-color: var(--primary);

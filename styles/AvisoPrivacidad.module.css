@@ -65,6 +65,7 @@
     width: 35%;
     border-radius: 1.3rem;
     border: 2px solid #716bf3;
+    font-weight: bold;
 }
 .botones a:hover{
     color: #716bf3;
@@ -109,6 +110,7 @@
 /*===========GASTOS MEDICOS SECCION PASOS =============*/
 .PasosGastosContenedor h2{
     color: var(--secundary);
+    font-weight: bold;
 }
 @media (max-width: 428px){
     .PasosGastosContenedor h2{
@@ -140,6 +142,7 @@
 }
 .subTitle{
     color: var(--secundary);
+    font-weight: bold;
 }
 @media (max-width: 428px){
     .subTitle{
@@ -202,6 +205,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-weight: bold;
 }
 @media (max-width: 428px){
     .TituloCheck{

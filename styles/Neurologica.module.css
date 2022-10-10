@@ -28,6 +28,7 @@
     margin: 0 auto;
     text-align: center;
     width: 35%;
+    font-weight: bold;
 }
 @media (max-width: 1024px) {
     .btnPedirCita {
@@ -92,6 +93,7 @@
 }
 .QueNeurologia h1{
     color: var(--secundary);
+    font-weight: bold;
 }
 @media (max-width: 450px) {
     .QueNeurologia h1 {
@@ -167,6 +169,7 @@
     color: var(--secundary);
     font-size: 2rem;
     grid-area: texto;
+    font-weight: bold;
 }
 @media (max-width: 428px) {
     .PatologiasTexto h2{
@@ -207,6 +210,9 @@
     width: 95%;
     }
 }
+.NeurologicaTres h3{
+    font-weight: bold;
+}
 @media (max-width: 768px) {
     .NeurologicaTresContenido h3{
     text-align: center;
@@ -232,6 +238,7 @@
 .NeurologicaTresContenido h3{
     color: var(--secundary);
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 @media (max-width: 768px) {
     .NeurologicaTresContenido h3{
@@ -304,6 +311,7 @@
 } */
 .NeurologicaTresContenidoDos h3{
     color: var(--secundary);
+    font-weight: bold;
 }
 @media (max-width: 768px) {
     .NeurologicaTresContenidoDos h3{

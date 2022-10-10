@@ -28,6 +28,7 @@
     margin: 0 auto;
     text-align: center;
     width: 35%;
+    font-weight: bold;
 }
 @media (max-width: 1024px) {
     .btnPedirCita {
@@ -106,6 +107,7 @@
 /* SECCION DOS  DE PRESOTERAPIA  SECCION DOS*/
 .SeccionDos h2{
     color: var(--secundary);
+    font-weight: bold;
 }
 @media (max-width: 428px) {
     .SeccionDos h2 {
@@ -169,6 +171,7 @@
     }
 }
 .ContenidoSeccTresText h2{
+    font-weight: bold;
     margin-bottom: 1rem;
     width: 90%;
 }

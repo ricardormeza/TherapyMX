@@ -2,9 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images:{
+    formats:['image/avif', 'image/webp']
+  },
   compiler: {
     styledComponents: true,
-  }
+  },
+  experimental: { images: { allowFutureImage: true } }
 }
 
 module.exports = nextConfig

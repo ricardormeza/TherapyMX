@@ -7,7 +7,8 @@
 @media (max-width: 428px) {
     .ContactoGrid {
         grid-template-columns: 1fr;
-        grid-template-rows: 65% 35%;
+        /* era 65 35 */
+        grid-template-rows: 35% 35%; 
         grid-template-areas: "imagen" "texto";
     }
 }
@@ -133,4 +134,13 @@
         font-size: .8rem;
         
     }
+}
+.DoctoraliaCita{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.zlUurl{
+    border: 2px solid transparent;
 }
