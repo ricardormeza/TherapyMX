@@ -4,7 +4,7 @@ export default function Document(){
     return(
         <Html>
             <Head>
-            <link rel="preconnect" href="https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico" crossOrigin={'true'}/>
+            {/* <link rel="preconnect" href="https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico" crossOrigin={'true'}/> */}
             </Head>
             <body>
                 <Main />

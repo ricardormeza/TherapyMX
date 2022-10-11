@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react'
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import "swiper/css/bundle";
 import styles from '../../styles/Carousel.module.css'
-import Link from 'next/link';
 
 
 const InicioDos = () => {
@@ -92,9 +92,6 @@ const InicioDos = () => {
                             </Link>
                         </div>
                     </SwiperSlide>
-                    {/* <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide> */}
                 </Swiper>
             </div>
 
