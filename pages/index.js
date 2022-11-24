@@ -25,17 +25,20 @@ export default function Home() {
         }}
       >
         <main className={styles.InicioImagen}>
+          
           <div className={styles.InicioHeadGrdiContainer}>
-            <div className={styles.InicioGridText}>
-              <h2 className="tituloT">Tu bienestar está en nuestras manos.</h2>
-              <p>Somos <span>expertos en tratamientos de fisioterapia.</span> </p>
-              <div className={styles.BtnContacto}>
-                <Link href='https://wa.me/525511775805'>
-                  <a title='Enviar mensaje por Whatsapp' className={styles.BtnContactoBtn}>Pedir informes</a> 
-                </Link>
-                <Link href='https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico'>
-                  <a title='Agendar cita en Doctoralia' className={styles.BtnContactoBtn}>Agendar cita</a>
-                </Link>
+          <div className={styles.degradadobco}>
+              <div className={styles.InicioGridText}>
+                <h2 className="tituloT">Tu bienestar está en nuestras manos.</h2>
+                <p>Somos <span>expertos en tratamientos de fisioterapia.</span> </p>
+                <div className={styles.BtnContacto}>
+                  <Link href='https://wa.me/525511775805'>
+                    <a title='Enviar mensaje por Whatsapp' className={styles.BtnContactoBtn}>Pedir informes</a> 
+                  </Link>
+                  <Link href='https://www.doctoralia.com.mx/ivan-hernandez-peralta/fisioterapeuta/ciudad-de-mexico'>
+                    <a title='Agendar cita en Doctoralia' className={styles.BtnContactoBtn}>Agendar cita</a>
+                  </Link>
+                </div>
               </div>
             </div>
             <div></div>
