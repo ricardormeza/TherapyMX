@@ -42,7 +42,7 @@
 
 .FooterContenedorContacto a{
     color: var(--primary);
-    font-size: var(--parrafo);
+    font-size: var(--parrafo2);
     padding-bottom: .5rem;
 }
 .FooterContenedorContacto span{
