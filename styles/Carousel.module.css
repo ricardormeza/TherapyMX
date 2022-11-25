@@ -10,14 +10,14 @@
     /* border: 1px solid red; */
 }
 .contenedorCarousel h2{
-    font-size: 1.688rem;
+    font-size: var(--titulo);
     color: var(--secundary);
     text-align: center;
-    /* text-transform: uppercase; */
+    padding-bottom: 1rem;
 }
 @media (max-width: 768px){
     .contenedorCarousel h2{
-        font-size: 1.5rem;
+        font-size: var(--titulo2);
     }
 }
 

@@ -240,7 +240,7 @@
     /* flex-direction: column; */
     justify-content: center;
     margin-top: .5rem;
-    gap: 1rem;
+    gap: 1.6rem;
   }
 }
 .BtnContactoBtn{
@@ -274,23 +274,26 @@
   gap: 1rem;
 }
 .bordeBtnInicio{
-  text-align: center;
+    text-align: center;
     display: flex;
     justify-content: center;
     gap: 1rem;
     align-items: center;
-    height: 5rem;
-    width: 35%;
-    border-radius: 1.3rem;
-    border: 2px solid #716bf3;
+    height: 3.1rem;
+    width: 45%;
+    border-radius: .5rem;
+    border: 1px solid #716bf3;
+    padding: .5rem 2rem;
   /* background-color: transparent;
   border: 3px solid var(--primary);
-  padding: .3rem 2rem;
   border-radius: .8rem;
   transition: .3s all; */
-}@media (max-width: 1024px){
+}
+@media (max-width: 1024px){
   .bordeBtnInicio{
-      width: 35%;
+      width: 42%;
+      height: 3rem;
+      padding: .5rem 2rem;
   }
 }
 @media (max-width: 768px){
@@ -303,6 +306,31 @@
   .bordeBtnInicio{
       width: 75%;
       font-size: 1.2rem;
+      height: 15%;
+  }
+}
+@media (max-width: 414px){
+  .bordeBtnInicio{
+      width: 75%;
+      font-size: 1.2rem;
+      height: 15%;
+      padding: .5rem 1rem;
+  }
+}
+@media (max-width: 390px){
+  .bordeBtnInicio{
+      width: 75%;
+      font-size: 1.2rem;
+      height: 15%;
+      padding: .5rem 1rem;
+  }
+}
+@media (max-width: 375px){
+  .bordeBtnInicio{
+      width: 75%;
+      font-size: 1.2rem;
+      height: 15%;
+      padding: .5rem 1rem;
   }
 }
 @media (max-width: 360px){
@@ -313,18 +341,26 @@
 }
 .lineaBtn{
   padding-right: 10px;
-  border-right: 4px solid #716bf3;
+  border-right: 1px solid #716bf3;
   display: flex;
   align-items: center;
+  
 }
 .lineaBtn a{
   text-align: center;
   font-size: 1.125rem;
   font-weight: bold;
+  color: gray;
+}
+@media (max-width: 428px){
+  .lineaBtn a{
+    font-size: .8rem;
+  }
 }
 .lineaBtnB{
   display: flex;
   align-items: center;
+  color: gray;
 }
 .lineaBtnB a{
   text-align: left!important;
@@ -332,16 +368,68 @@
   font-weight: bold;
 }
 @media (max-width: 428px){
+  .lineaBtnB a{
+    font-size: .8rem;
+  }
+}
+@media (max-width: 428px){
   .lineaBtn{
-      height: 80%;
+      height: 35%;
   }
 }
 .btninicio{
   font-size: 1.6rem;
   cursor: pointer;
 }
+@media (max-width: 428px){
+  .btninicio{
+    font-size: 1rem;
+  }
+}
 .btninicio:hover{
   color: var(--primary);
+}
+.CirculoUnoGris{
+  background-image: url(/img/Circulo.webp);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 40rem 12rem;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 3rem;
+}
+@media (max-width: 834px){
+  .CirculoUnoGris{
+    background-size: 50%;
+    background-position: 29rem 16rem;
+  }
+}
+@media (max-width: 768px){
+  .CirculoUnoGris{
+    background-size: 50%;
+    background-position: 27rem 32rem;
+  }
+}
+@media (max-width: 428px){
+  .CirculoUnoGris{
+    background-size: 50%;
+    background-position: 15rem 18rem;
+  }
+}
+@media (max-width: 414px){
+  .CirculoUnoGris{
+    background-size: 50%;
+    background-position: 14.3rem 18rem;
+  }
+}
+@media (max-width: 390px){
+  .CirculoUnoGris{
+    background-size: 50%;
+    background-position: 13rem 18rem;
+  }
+}
+.InicioSeccionUno{
+  /* border: 1px solid green; */
 }
 .QuienesSomosContenedor{
   display: grid;
@@ -476,13 +564,13 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
 }
 @media (max-width: 768px){
   .QuienesSomosTexto h3{
-    font-size: 1.4rem;
+    font-size: var(--titulo2);
     text-align: center;
   }
 }
 .QuienesSomosTexto p{
   text-align: justify;
-  font-size: 1.125rem;
+  font-size: 0.9614rem;
 }
 .QuienesSomosTexto a{
   color: var(--primary);
@@ -490,7 +578,7 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
   cursor: pointer;
 }
 .enlace{
-  font-size: 1.4rem;
+  font-size: var(--parrafo);
 }
 /* COMO FUNCIONA  */
 .ComoFuncionaImg{
@@ -857,3 +945,20 @@ box-shadow: -7px 9px 5px -3px rgba(0,0,0,0.75);
   color: #fafafa;
 }
 
+/* CIRCULO DE IMAGENES  */
+.circuloGris{
+  background-image: url(/img/Circulo.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0rem 0rem;
+  height: 60px;
+  width: 100%;
+  border: 1px solid red;
+}
+@media (max-width: 428px){
+  .circuloGris{
+    /* height: 30px; */
+    background-position: -7rem -4rem;
+    
+  }
+}

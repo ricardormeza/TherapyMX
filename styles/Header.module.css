@@ -1,0 +1,10 @@
+.HeaderBG{
+    /* border: 1px solid blue; */
+    /* background-color: red; */
+}
+@media (max-width: 428px){
+    .HeaderBG{
+        background-color: var(--primary);
+        /* border: 1px solid red; */
+    }
+}

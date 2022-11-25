@@ -161,6 +161,7 @@
     .BannerContactoTexto{
         /* height: 80%; */
     width: 98%;
+    font-size: var(--titulo2);
     }
 }
 @media (max-width: 1024px){
@@ -185,7 +186,8 @@
 }
 @media (max-width: 428px){
     .ContenidoBannerContacto p{
-    font-size: 1.5rem;
+    font-size: var(--parrafo);
+    padding: 2rem;
     }
 }
 .BtnContacto{
@@ -199,8 +201,8 @@
     }
 }
 .BtnContactoBtn{
-    background-color: transparent;
-    border: 3px solid var(--primary);
+    background-color: white;
+    border: 1px solid var(--primary);
     padding: .5rem 2rem;
     border-radius: 1rem;
     transition: .3s all;

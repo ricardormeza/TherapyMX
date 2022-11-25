@@ -21,6 +21,7 @@ import {
     LightBulbIcon
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import styles from '../styles/Header.module.css';
 
 
 const solutions = [
@@ -146,32 +147,34 @@ function classNames(...classes) {
 
 const Header = () => {
     return (
-        
-        <Popover className="relative bg-white">
-            
+        <Popover className={`relative   ${styles.HeaderBG}`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            
-                <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
-                    <div className="md:flex items-center justify-start md:flex-1 lg:w-0">
-                        <Link href="/">
-                            <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
+                    <div className="md:flex  items-center justify-start  md:flex-1 lg:w-0 sm:hidden">
+                        <Link href="/" className="md:hidden">
+                            <a href="#" className="whitespace-nowrap text-base font-medium  text-gray-500 hover:text-gray-900">
                                 <Image width={400} height={120} src="/img/UpTherapy-logo.webp" alt='logo clínica Up Therapy MX' />
                             </a>
                         </Link>
                     </div>
-                    <div className="flex justify-start lg:w-0 lg:flex-1">
-                        <a href="#">
+                    <div className="flex justify-start md:hidden">
+                        {/* <a href="#">
                             <span className="sr-only">Workflow</span>
-                            {/* <Image
-                layout='responsive' width={600} height={450}
-                className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                alt=""
-              /> */}
-                        </a>
+                            <Image
+                                layout='responsive' width={600} height={450}
+                                className="h-8 w-auto sm:h-10"
+                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                alt=""
+                            />
+                        </a> */}
+                        {/* <Link href="/">
+                            <a href="#" className="whitespace-nowrap text-base font-medium  text-gray-500 hover:text-gray-900">
+                                <Image width={180} height={100} src="/img/UpTherapy-logo.webp" alt='logo clínica Up Therapy MX' />
+                            </a>
+                        </Link> */}
                     </div>
                     <div className="-mr-2 -my-2 md:hidden">
-                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                             <span className="sr-only">Open menu</span>
                             <MenuIcon className="h-6 w-6" aria-hidden="true" />
                         </Popover.Button>

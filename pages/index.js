@@ -49,7 +49,7 @@ export default function Home() {
         </Quienes>
         
         <InicioUno/>
-        <div className='separacion'></div>
+        {/* <div className='separacion'></div> */}
         <InicioDos/>
         <div className='separacion'></div>
           <BannerContacto/>

@@ -12,8 +12,11 @@ const InicioUno = () => {
                 <a className={styles.btninicio}>¿Cómo funciona?</a>
                 </div>
             </div> */}
-            <div className='separacion'></div>
+            {/* <div className='separacion'>
+            </div> */}
+            <div className={styles.CirculoUnoGris}>
             <div className={styles.InicioSeccionUno}>
+                {/* <div className={styles.circuloGris}></div> */}
                 <div className={styles.QuienesSomosContenedor}>
                     <div className={styles.QuieneSomosImagen}>
                         <div className={styles.QuienesSomosImg}></div>
@@ -31,14 +34,15 @@ const InicioUno = () => {
                             Cuenta con un equipo de trabajo experto, el cuál busca la mejor solución que se 
                             adapte a las necesidades de cada paciente.
                         </p>
-                        <br/>
+                        {/* <br/> */}
                         <Link href='/quienes-somos'>
                             <a title='ir a sección quienes somos' className={styles.enlace}>Leer más</a>
                         </Link>
                     </div>
                 </div>
             </div>
-            <div className='separacion'></div>
+            </div>
+            {/* <div className='separacion'></div> */}
         </section>
     )
 }

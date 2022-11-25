@@ -8,6 +8,8 @@
   --fuente-principal: 'Outfit', sans-serif;
   --titulo: 1.688rem;
   --titulo2: 1.0032rem;
+  --parrafo: 0.9614rem;
+  --parrafo2: 0.7524rem;
 }
 html {
   /* font-size: 62.5%; */
